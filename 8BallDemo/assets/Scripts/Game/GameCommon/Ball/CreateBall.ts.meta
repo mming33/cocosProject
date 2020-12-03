@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.1",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "c0b6c862-7abd-4ccd-98f6-3a14516f2e71",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Game/GameCommon/Ball/CreateBall.js",
+    "importerSettings": 0
+  }
+}

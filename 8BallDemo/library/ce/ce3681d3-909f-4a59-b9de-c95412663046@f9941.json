@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "LightBG",
+    "atlas": "",
+    "rect": {
+      "x": 211,
+      "y": 59,
+      "width": 796,
+      "height": 737
+    },
+    "offset": {
+      "x": 0,
+      "y": -29.5
+    },
+    "originalSize": {
+      "width": 1218,
+      "height": 796
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ce3681d3-909f-4a59-b9de-c95412663046@6c48a"
+  }
+}

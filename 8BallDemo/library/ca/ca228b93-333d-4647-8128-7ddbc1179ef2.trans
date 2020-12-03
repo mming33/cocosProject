@@ -1,0 +1,11 @@
+{
+    "resolveMap": {
+        "../../../Common/SourceManager": "../../../Common/SourceManager.ts",
+        "../../../Utils/NDBTS": "../../../Utils/NDBTS.ts",
+        "../../GameData": "../../GameData.ts",
+        "../../Popup/PopupManager": "../../Popup/PopupManager.ts",
+        "../Ball/BallManager": "../Ball/BallManager.ts",
+        "../GameSceneManager": "../GameSceneManager.ts",
+        "../RoundType": "../RoundType.ts"
+    }
+}

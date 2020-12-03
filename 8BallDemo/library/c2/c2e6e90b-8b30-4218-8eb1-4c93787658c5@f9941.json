@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "effect",
+    "atlas": "",
+    "rect": {
+      "x": 9,
+      "y": 6,
+      "width": 757,
+      "height": 357
+    },
+    "offset": {
+      "x": -5,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 785,
+      "height": 365
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "c2e6e90b-8b30-4218-8eb1-4c93787658c5@6c48a"
+  }
+}

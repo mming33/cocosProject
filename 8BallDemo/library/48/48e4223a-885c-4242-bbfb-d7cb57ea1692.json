@@ -1,0 +1,423 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "effect1",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 1,
+    "events": [],
+    "_duration": 1.3166666666666667,
+    "_keys": [
+      [
+        0.05,
+        0.16666666666666666,
+        0.9166666666666666
+      ],
+      [
+        0.05,
+        0.16666666666666666,
+        0.26666666666666666,
+        0.35,
+        0.9166666666666666
+      ],
+      [
+        0.6166666666666667,
+        0.9166666666666666
+      ],
+      [
+        0.08333333333333333,
+        0.25,
+        1.1666666666666667
+      ],
+      [
+        0.08333333333333333,
+        0.25,
+        0.35,
+        0.43333333333333335,
+        1.1666666666666667
+      ],
+      [
+        0.75,
+        1.1666666666666667
+      ],
+      [
+        0,
+        0.16666666666666666,
+        1.3166666666666667
+      ],
+      [
+        0,
+        0.16666666666666666,
+        1.3166666666666667
+      ],
+      [
+        0.6666666666666666,
+        1.3166666666666667
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.2,
+              "y": 1.2,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 2
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 1,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -97.04,
+              "y": 127.59,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -174.313,
+              "y": 136.575,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -228.224,
+              "y": 115.011,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -437.089,
+              "y": -354.674,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 3
+          },
+          {
+            "__id__": 4
+          },
+          "color"
+        ],
+        "data": {
+          "keys": 2,
+          "values": [
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 5
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 3,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -1,
+              "y": -1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -1.2,
+              "y": -1.2,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 6
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 4,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 97.04,
+              "y": 127.59,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 174.313,
+              "y": 136.575,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 228.224,
+              "y": 115.011,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 291.154,
+              "y": -294.458,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 7
+          },
+          {
+            "__id__": 8
+          },
+          "color"
+        ],
+        "data": {
+          "keys": 5,
+          "values": [
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 9
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 6,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.2,
+              "y": 1.2,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 10
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 7,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -32.347,
+              "y": 339.641,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -223.241,
+              "y": -354.674,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 11
+          },
+          {
+            "__id__": 12
+          },
+          "color"
+        ],
+        "data": {
+          "keys": 8,
+          "values": [
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 3108372133
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-001"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-001"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-001"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-002"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-002"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-002"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-003"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-003"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "礼花-003"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  }
+]

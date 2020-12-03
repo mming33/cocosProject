@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sliang",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 139,
+      "height": 190
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 1
+    },
+    "originalSize": {
+      "width": 142,
+      "height": 192
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "45b7a335-8337-45db-b76f-2b2c7165e73f@6c48a"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "resolveMap": {
+        "../GameSceneManager": "../GameSceneManager.ts",
+        "../UI/GameSceneUI": "../UI/GameSceneUI.ts",
+        "./Ball": "Ball.ts",
+        "./BallManager": "BallManager.ts"
+    }
+}

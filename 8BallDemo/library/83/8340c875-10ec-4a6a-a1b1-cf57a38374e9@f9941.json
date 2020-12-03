@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WhiteBG",
+    "atlas": "",
+    "rect": {
+      "x": 9,
+      "y": 109,
+      "width": 1092,
+      "height": 258
+    },
+    "offset": {
+      "x": -1,
+      "y": 23
+    },
+    "originalSize": {
+      "width": 1112,
+      "height": 522
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8340c875-10ec-4a6a-a1b1-cf57a38374e9@6c48a"
+  }
+}

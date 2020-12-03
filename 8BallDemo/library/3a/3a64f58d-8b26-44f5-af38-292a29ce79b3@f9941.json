@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bliang",
+    "atlas": "",
+    "rect": {
+      "x": 3,
+      "y": 2,
+      "width": 182,
+      "height": 177
+    },
+    "offset": {
+      "x": 1.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 185,
+      "height": 181
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3a64f58d-8b26-44f5-af38-292a29ce79b3@6c48a"
+  }
+}

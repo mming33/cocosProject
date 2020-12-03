@@ -1,0 +1,12 @@
+{
+    "resolveMap": {
+        "../../Common/SourceManager": "../../Common/SourceManager.ts",
+        "../Algorithm/MathAlgorithm": "../Algorithm/MathAlgorithm.ts",
+        "../GameData": "../GameData.ts",
+        "./Ball/BallManager": "Ball/BallManager.ts",
+        "./Ball/BallType": "Ball/BallType.ts",
+        "./GameSceneManager": "GameSceneManager.ts",
+        "./UI/GameSceneUI": "UI/GameSceneUI.ts",
+        "./UI/PlayerController": "UI/PlayerController.ts"
+    }
+}

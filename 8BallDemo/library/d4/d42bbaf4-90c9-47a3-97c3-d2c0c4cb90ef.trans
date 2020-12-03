@@ -1,0 +1,7 @@
+{
+    "resolveMap": {
+        "../Utils/NDBTS": "NDBTS.ts",
+        "../Utils/MKEventDispatch": "MKEventDispatch.ts",
+        "./GlobalGameData": "GlobalGameData.ts"
+    }
+}

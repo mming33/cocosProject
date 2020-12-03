@@ -1,16 +1,17 @@
-import { _decorator, Component, Node, loader, CanvasComponent, UITransformComponent, Scene, Layers, GFXClearFlag, director, Prefab, SpriteComponent, find } from 'cc';
+import { CanvasComponent, Node, director, find, GFXClearFlag, loader, SpriteComponent, UITransformComponent, _decorator } from 'cc';
+import { MyComponent } from '../Game/MyComponent';
 import { PopupManager } from '../Popup/PopupManager';
 import { SoundManager } from '../Sound/SoundManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('LoadManager')
-export class LoadManager extends Component {
+export class LoadManager extends MyComponent {
 
 
     static loadIndex: number = 0;
     static allloadIndex: number = 4;
     sliderItem: SpriteComponent;
-    onEnable() {
+    Init() {
         LoadManager.loadIndex = 0;
         this.LoadPopupsPrefab();
         this.LoadSoundPrefab();

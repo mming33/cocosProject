@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.1",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "d42bbaf4-90c9-47a3-97c3-d2c0c4cb90ef",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Utils/MKMessageManager.js",
+    "importerSettings": 0
+  }
+}

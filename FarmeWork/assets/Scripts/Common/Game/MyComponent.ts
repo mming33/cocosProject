@@ -1,33 +1,34 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, macro } from 'cc';
+import { GameController } from './GameController';
 const { ccclass, property } = _decorator;
 
 @ccclass('MyComponent')
 export class MyComponent extends Component {
 
-    onLoad() {
-
-    }
 
     onEnable() {
+        this.Init();
+        this.schedule(this.gameUpdate, 0.02, macro.REPEAT_FOREVER)
 
     }
-
-    start() {
-
+    private gameUpdate() {
+        if (GameController.isGameStop) return;
+        this.onUpDate()
+    }
+    onDisable() {
+        this.unschedule(this.gameUpdate)
+        this.myDisable();
     }
 
-    update(dateTime: number) {
+    protected Init() {
 
     }
-
-    lateUpdate(dateTime: number){
-
-    }
-
-    onDisable(){
+    protected onUpDate() {
 
     }
+    protected myDisable() {
 
+    }
 
 
 }

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WinTip",
+    "atlas": "",
+    "rect": {
+      "x": 8,
+      "y": 4,
+      "width": 358,
+      "height": 76
+    },
+    "offset": {
+      "x": -1,
+      "y": 8
+    },
+    "originalSize": {
+      "width": 376,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8f5dc431-3468-451b-ba5d-23606afe0b46@6c48a"
+  }
+}

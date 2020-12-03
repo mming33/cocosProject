@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "./Algorithm/MathAlgorithm": "Algorithm/MathAlgorithm.ts"
+    }
+}

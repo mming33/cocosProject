@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn-play again",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 80
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 320,
+      "height": 80
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "169c58be-3674-4fde-8c10-11a6a1712335@6c48a"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "resolveMap": {
+        "../../Algorithm/MathAlgorithm": "../../Algorithm/MathAlgorithm.ts",
+        "../GameSceneManager": "../GameSceneManager.ts",
+        "./BallManager": "BallManager.ts",
+        "./MyLine": "MyLine.ts"
+    }
+}

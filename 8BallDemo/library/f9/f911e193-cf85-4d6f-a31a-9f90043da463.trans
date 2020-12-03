@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "../Common/noSleep": "../Common/noSleep.ts",
+        "../Utils/NDBTS": "../Utils/NDBTS.ts"
+    }
+}

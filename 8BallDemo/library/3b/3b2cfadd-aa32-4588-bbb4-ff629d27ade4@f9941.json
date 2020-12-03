@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Aliang",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 1,
+      "width": 172,
+      "height": 188
+    },
+    "offset": {
+      "x": 1,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 174,
+      "height": 189
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3b2cfadd-aa32-4588-bbb4-ff629d27ade4@6c48a"
+  }
+}

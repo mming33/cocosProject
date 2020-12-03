@@ -1,0 +1,104 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "fire",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 2,
+    "events": [],
+    "_duration": 0.25,
+    "_keys": [
+      [
+        0,
+        0.08333333333333333,
+        0.16666666666666666,
+        0.25
+      ],
+      [
+        0,
+        0.08333333333333333,
+        0.16666666666666666,
+        0.25
+      ],
+      [
+        0,
+        0.08333333333333333,
+        0.16666666666666666,
+        0.25
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "active"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            true,
+            false,
+            false,
+            true
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 2
+          },
+          "active"
+        ],
+        "data": {
+          "keys": 1,
+          "values": [
+            false,
+            true,
+            false,
+            false
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 3
+          },
+          "active"
+        ],
+        "data": {
+          "keys": 2,
+          "values": [
+            false,
+            false,
+            true,
+            false
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [],
+    "_hash": 2104345820
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "1"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "2"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "3"
+  }
+]

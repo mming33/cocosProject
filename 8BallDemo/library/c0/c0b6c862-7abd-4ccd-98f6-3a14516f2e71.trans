@@ -1,0 +1,10 @@
+{
+    "resolveMap": {
+        "../../Algorithm/MathAlgorithm": "../../Algorithm/MathAlgorithm.ts",
+        "./Ball": "Ball.ts",
+        "./BallManager": "BallManager.ts",
+        "./BallPhysics": "BallPhysics.ts",
+        "./BlackBall": "BlackBall.ts",
+        "./RackManager": "RackManager.ts"
+    }
+}

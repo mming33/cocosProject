@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Cocos Creator 3D | 8BallDemo</title>
+
+  <!--http://www.html5rocks.com/en/mobile/mobifying/-->
+  <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1" />
+
+  <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- force webkit on 360 -->
+  <meta name="renderer" content="webkit" />
+  <meta name="force-rendering" content="webkit" />
+  <!-- force edge on IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- force full screen on some browser -->
+  <meta name="full-screen" content="yes" />
+  <meta name="x5-fullscreen" content="true" />
+  <meta name="360-fullscreen" content="true" />
+
+  <!-- force screen orientation on some browser -->
+  <meta name="screen-orientation" content="landscape" />
+  <meta name="x5-orientation" content="landscape">
+
+  <!--fix fireball/issues/3568 -->
+  <!--<meta name="browsermode" content="application">-->
+  <meta name="x5-page-mode" content="app">
+
+  <!--<link rel="apple-touch-icon" href=".png" />-->
+  <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash" style="background-size:100%">
+    <div class="progress-bar stripes" style="width: 14px; left: 10%; top: 10%; height:80%;">
+      <span style="height: 0%;"></span>
+    </div>
+    <div class="toastBG" id="toastDiv" style="visibility:hidden; transform: rotate(90deg);">
+      <p id="toast">Sorry, the game system cannot support mobile phones below Android 6.0. Please upgrade your mobile
+        phone’s Android version to 6.0 and above.</p>
+    </div>
+  </div>
+  <!-- Polyfills bundle. -->
+  <script src="src/polyfills.bundle.js" charset="utf-8"> </script>
+
+  <!-- SystemJS support. -->
+  <script src="src/system.bundle.js" charset="utf-8"> </script>
+
+  <script>
+    var Detector = {
+      canvas: !!window.CanvasRenderingContext2D,
+      webgl: (function () {
+        try {
+          var canvas = document.createElement('canvas');
+          return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+        } catch (e) {
+          return false;
+        }
+      })(),
+      workers: !!window.Worker,
+      fileapi: window.File && window.FileReader && window.FileList && window.Blob,
+      getWebGLErrorMessage: function () {
+        var element = document.createElement('div');
+        element.id = 'webgl-error-message';
+        element.style.fontFamily = 'monospace';
+        element.style.fontSize = '13px';
+        element.style.fontWeight = 'normal';
+        element.style.textAlign = 'center';
+        element.style.background = '#fff';
+        element.style.color = '#000';
+        element.style.padding = '1.5em';
+        element.style.width = '400px';
+        element.style.margin = '5em auto 0';
+        if (!this.webgl) {
+          element.innerHTML = window.WebGLRenderingContext ? [
+            'Your graphics card does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation" rel="external nofollow" rel="external nofollow" style="color:#000">WebGL</a>.<br />',
+            'Find out how to get it <a href="http://get.webgl.org/" rel="external nofollow" rel="external nofollow" style="color:#000">here</a>.'
+          ].join('\n') : [
+            'Your browser does not seem to support <a href="http://khronos.org/webgl/wiki/Getting_a_WebGL_Implementation" rel="external nofollow" rel="external nofollow" style="color:#000">WebGL</a>.<br/>',
+            'Find out how to get it <a href="http://get.webgl.org/" rel="external nofollow" rel="external nofollow" style="color:#000">here</a>.'
+          ].join('\n');
+        }
+        return element;
+      },
+      addGetWebGLMessage: function (parameters) {
+        var parent, id, element;
+        parameters = parameters || {};
+        parent = parameters.parent !== undefined ? parameters.parent : document.body;
+        id = parameters.id !== undefined ? parameters.id : 'oldie';
+        element = Detector.getWebGLErrorMessage();
+        element.id = id;
+        parent.appendChild(element);
+      }
+    };
+    if (typeof module === 'object') {
+      module.exports = Detector;
+    }
+    if (!Detector.webgl){
+      document.getElementById('toastDiv').style.visibility = 'visible';
+      let href = window.location.href;
+      var reg = new RegExp("(^|&)" + 'ui_lang' + "=([^&]*)(&|$)", "i");
+      var r = href.substr(1).match(reg); //获取url中"?"符后的字符串并正则匹配
+      var context = "";
+      if (r != null)
+        context = r[2];
+      reg = null;
+      r = null;
+  
+      if (context) {
+        switch (context) {
+          case 'ar':
+            document.getElementById('toast').innerText = 'نعتذر، لا يمكن لنظام اللعبة دعم الهواتف المحمولة الأقل من Android 6.0. الرجاء ترقية إصدار Android لهاتفك المحمول إلى 6.0 وما فوق.';
+            break;
+          case 'hi':
+            document.getElementById('toast').innerText = 'क्षमा करें, गेम सिस्टम एंड्राइड 6.0 से नीचे के मोबाइल फोन का सपोर्ट नहीं कर सकता है। कृपया अपने मोबाइल फ़ोन के एंड्राइड वर्शन को 6.0 और उससे अधिक पर अपग्रेड करें।';
+            break;
+          case 'te':
+            document.getElementById('toast').innerText = 'ఆండ్రాయిడ్ 6.0 కన్నా తక్కువ ఉన్న మొబైల్ ఫోన్ కు గేమ్ సిస్టమ్ పని చేయదు. దయచేసి మీ మొబైల్ ఫోన్ ఆండ్రాయిడ్ వెర్షన్ 6.0 పైన అప్డేట్ చేయండి.';
+            break;
+          case 'ta':
+            document.getElementById('toast').innerText = 'மன்னிக்கவும், Android 6.0 க்குக் கீழே உள்ள மொபைல் போன்களை விளையாட்டு அமைப்பு ஆதரிக்க முடியாது. உங்கள் மொபைல் ஃபோனின் Android பதிப்பை 6.0 மற்றும் அதற்கு மேல் மேம்படுத்தவும்.';
+            break;
+          case 'id':
+            document.getElementById('toast').innerText = 'Maaf, sistem game tidak dapat mendukung ponsel di bawah Android 6.0. Harap update versi Android di ponsel Anda ke 6.0 dan yang lebih baru.';
+            break;
+        }
+      }
+    }
+  </script>
+  
+  <script>
+    const importMapUrl = 'src/import-map.json';
+    fetch(importMapUrl).then((response) => {
+      return response.json();
+    }).then((importMap) => {
+      const importMapAbsUrl = new URL(importMapUrl, window.location.href).href;
+      System.constructor.prototype.patches.setImportMap(importMap, importMapAbsUrl);
+    }).then(() => {
+      System.import('./index.js').catch(function (err) { console.error(err); });
+    });
+  </script>
+
+</body>
+
+</html>

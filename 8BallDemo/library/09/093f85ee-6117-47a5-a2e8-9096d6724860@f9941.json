@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rectangle_1",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 214,
+      "height": 8
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 214,
+      "height": 8
+    },
+    "rotated": false,
+    "capInsets": [
+      8,
+      2,
+      8,
+      2
+    ],
+    "texture": "093f85ee-6117-47a5-a2e8-9096d6724860@6c48a"
+  }
+}

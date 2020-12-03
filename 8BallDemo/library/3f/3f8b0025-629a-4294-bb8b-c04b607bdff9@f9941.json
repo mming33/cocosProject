@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "IdelHeadImage",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 60,
+      "height": 48
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 60,
+      "height": 48
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3f8b0025-629a-4294-bb8b-c04b607bdff9@6c48a"
+  }
+}

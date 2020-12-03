@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "../Game/Popup/PopupManager": "../Game/Popup/PopupManager.ts",
+        "./SourceManager": "SourceManager.ts"
+    }
+}

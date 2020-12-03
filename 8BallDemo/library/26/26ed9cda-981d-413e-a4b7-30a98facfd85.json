@@ -1,0 +1,725 @@
+[
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "Lose",
+    "_objFlags": 0,
+    "_native": "",
+    "sample": 60,
+    "speed": 1,
+    "wrapMode": 1,
+    "events": [],
+    "_duration": 1.85,
+    "_keys": [
+      [
+        0.18333333333333332,
+        0.6833333333333333
+      ],
+      [
+        0.4166666666666667,
+        0.6833333333333333,
+        0.7666666666666667,
+        0.85,
+        0.9333333333333333,
+        1.0833333333333333
+      ],
+      [],
+      [],
+      [],
+      [
+        0.4166666666666667,
+        0.5166666666666667,
+        0.6833333333333333
+      ],
+      [
+        0.6833333333333333,
+        1.0833333333333333
+      ],
+      [
+        0.18333333333333332,
+        0.6666666666666666,
+        0.6833333333333333
+      ],
+      [
+        0.18333333333333332,
+        0.6666666666666666,
+        0.6833333333333333
+      ],
+      [
+        1.0833333333333333,
+        1.2666666666666666
+      ],
+      [
+        0,
+        0.36666666666666664,
+        0.75,
+        1.1833333333333333,
+        1.7166666666666666
+      ],
+      [
+        0.016666666666666666,
+        0.38333333333333336,
+        0.7666666666666667,
+        1.3333333333333333,
+        1.85
+      ],
+      [
+        0,
+        0.36666666666666664
+      ],
+      [
+        0.6833333333333333,
+        1.0666666666666667,
+        1.4166666666666667,
+        1.75
+      ],
+      [
+        0.7,
+        1.0166666666666666,
+        1.5833333333333333
+      ],
+      [
+        0.16666666666666666,
+        0.7666666666666667,
+        1.2,
+        1.65,
+        1.7333333333333334
+      ],
+      [
+        0.8333333333333334,
+        1.7
+      ],
+      [
+        0.18333333333333332,
+        0.8833333333333333,
+        1.3333333333333333,
+        1.7166666666666666
+      ],
+      [
+        0.8333333333333334,
+        1.7
+      ]
+    ],
+    "_stepness": 0,
+    "_curves": [
+      {
+        "modifiers": [
+          {
+            "__id__": 1
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 0,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 2
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 1,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 12.000000000000002,
+              "y": 12.000000000000002,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.2100000000000002,
+              "y": 1.2100000000000002,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.3,
+              "y": 1.3,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1.15,
+              "y": 1.15,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          "r"
+        ],
+        "data": {
+          "keys": 2,
+          "values": [],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "g"
+        ],
+        "data": {
+          "keys": 3,
+          "values": [],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "b"
+        ],
+        "data": {
+          "keys": 4,
+          "values": [],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          "a"
+        ],
+        "data": {
+          "keys": 5,
+          "values": [
+            0,
+            30,
+            255
+          ],
+          "easingMethods": {}
+        },
+        "commonTarget": 0
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 3
+          },
+          "eulerAngles"
+        ],
+        "data": {
+          "keys": 6,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": -14.999999999999996
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 4
+          },
+          "active"
+        ],
+        "data": {
+          "keys": 7,
+          "values": [
+            false,
+            false,
+            true
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 5
+          },
+          "active"
+        ],
+        "data": {
+          "keys": 8,
+          "values": [
+            false,
+            false,
+            true
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 6
+          },
+          "scale"
+        ],
+        "data": {
+          "keys": 9,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 0,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 7
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 10,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": -980.646,
+              "y": 232.258,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -187.098,
+              "y": 232.258,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -187.098,
+              "y": 219.355,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -187.098,
+              "y": 229.032,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -187.098,
+              "y": 216.129,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 8
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 11,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 935.484,
+              "y": 206.452,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 183.871,
+              "y": 206.452,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 183.871,
+              "y": 187.097,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 183.871,
+              "y": 190.323,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 183.871,
+              "y": 170.968,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 9
+          },
+          {
+            "__id__": 10
+          },
+          "color"
+        ],
+        "data": {
+          "keys": 12,
+          "values": [
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 0
+            },
+            {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 11
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 13,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 222.581,
+              "y": 387.097,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 58.064,
+              "y": -93.548,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -19.254,
+              "y": -229.234,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -200,
+              "y": -416.129,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 12
+          },
+          "eulerAngles"
+        ],
+        "data": {
+          "keys": 14,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 45.964
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 156.448
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 314.127
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 13
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 15,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": -80.484,
+              "y": 427.95,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 100,
+              "y": 32.258,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 126.058,
+              "y": -128.103,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 148.878,
+              "y": -361.509,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 248.496,
+              "y": -480.688,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 14
+          },
+          "position"
+        ],
+        "data": {
+          "keys": 16,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 172.008,
+              "y": 390.323,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -200,
+              "y": -406.451,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 15
+          },
+          "eulerAngles"
+        ],
+        "data": {
+          "keys": 17,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 25.091
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": -88.218
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": -60
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          ],
+          "easingMethods": {}
+        }
+      },
+      {
+        "modifiers": [
+          {
+            "__id__": 16
+          },
+          "eulerAngles"
+        ],
+        "data": {
+          "keys": 18,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": -537.025
+            }
+          ],
+          "easingMethods": {}
+        }
+      }
+    ],
+    "_commonTargets": [
+      {
+        "modifiers": [
+          {
+            "__id__": 17
+          },
+          {
+            "__id__": 18
+          },
+          "color"
+        ]
+      }
+    ],
+    "_hash": 4123912036
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "guang"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "lose"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "lose"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "anima2"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "anima1"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "xian"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "乌云-大"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "乌云-小"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "底"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子-001"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子-002"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子-001"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "叶子-002"
+  },
+  {
+    "__type__": "cc.animation.HierarchyPath",
+    "path": "lose"
+  },
+  {
+    "__type__": "cc.animation.ComponentPath",
+    "component": "cc.Sprite"
+  }
+]

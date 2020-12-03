@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "combo2",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 0,
+      "width": 393,
+      "height": 116
+    },
+    "offset": {
+      "x": 0,
+      "y": 19
+    },
+    "originalSize": {
+      "width": 395,
+      "height": 154
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ae2d8a69-11eb-47c4-9926-c9c3cc2a87cc@6c48a"
+  }
+}

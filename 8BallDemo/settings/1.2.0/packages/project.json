@@ -1,0 +1,52 @@
+{
+  "__version__": "1.0.1",
+  "script": {
+    "useDefineForClassFields": false,
+    "allowDeclareFields": false
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ball"
+      },
+      {
+        "index": 2,
+        "name": "desktop"
+      },
+      {
+        "index": 3,
+        "name": "table"
+      },
+      {
+        "index": 4,
+        "name": "Line"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 27,
+      "1": 27,
+      "2": 0,
+      "3": 27,
+      "4": 27
+    }
+  },
+  "layer": [
+    {
+      "name": "Table",
+      "value": 1
+    },
+    {
+      "name": "Ball",
+      "value": 2
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 1500,
+      "height": 750,
+      "fitHeight": true,
+      "fitWidth": false
+    }
+  }
+}

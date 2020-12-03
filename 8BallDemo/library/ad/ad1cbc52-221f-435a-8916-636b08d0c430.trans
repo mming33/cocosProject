@@ -1,0 +1,15 @@
+{
+    "resolveMap": {
+        "../../Common/ServerCommon": "../../Common/ServerCommon.ts",
+        "../../Utils/MKEventDispatch": "../../Utils/MKEventDispatch.ts",
+        "../GameData": "../GameData.ts",
+        "../Popup/PopupManager": "../Popup/PopupManager.ts",
+        "./Ball/BallManager": "Ball/BallManager.ts",
+        "./Ball/BallType": "Ball/BallType.ts",
+        "./Player": "Player.ts",
+        "./RobotController": "RobotController.ts",
+        "./RoundType": "RoundType.ts",
+        "./UI/GameSceneUI": "UI/GameSceneUI.ts",
+        "./UI/PlayerController": "UI/PlayerController.ts"
+    }
+}

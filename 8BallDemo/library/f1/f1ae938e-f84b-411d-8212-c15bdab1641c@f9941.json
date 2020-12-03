@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "blue_liang",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 529,
+      "height": 320
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 529,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "f1ae938e-f84b-411d-8212-c15bdab1641c@6c48a"
+  }
+}

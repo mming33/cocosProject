@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yezi",
+    "atlas": "",
+    "rect": {
+      "x": 6,
+      "y": 5,
+      "width": 87,
+      "height": 39
+    },
+    "offset": {
+      "x": 2.5,
+      "y": 3.5
+    },
+    "originalSize": {
+      "width": 94,
+      "height": 56
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "85002c46-ed9f-41a5-8b66-64d4f7ecae72@6c48a"
+  }
+}

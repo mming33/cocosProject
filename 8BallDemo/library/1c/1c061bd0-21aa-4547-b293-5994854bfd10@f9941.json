@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "finger",
+    "atlas": "",
+    "rect": {
+      "x": 6,
+      "y": 34,
+      "width": 114,
+      "height": 108
+    },
+    "offset": {
+      "x": -2.5,
+      "y": -13
+    },
+    "originalSize": {
+      "width": 131,
+      "height": 150
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1c061bd0-21aa-4547-b293-5994854bfd10@6c48a"
+  }
+}

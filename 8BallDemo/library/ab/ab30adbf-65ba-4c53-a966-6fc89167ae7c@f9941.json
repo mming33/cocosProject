@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "liangguang",
+    "atlas": "",
+    "rect": {
+      "x": 114,
+      "y": 2,
+      "width": 40,
+      "height": 636
+    },
+    "offset": {
+      "x": 4,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 260,
+      "height": 639
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ab30adbf-65ba-4c53-a966-6fc89167ae7c@6c48a"
+  }
+}

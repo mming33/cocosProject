@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GloadImage",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 46,
+      "height": 48
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 46,
+      "height": 48
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3d389a0e-42db-4ff5-8602-a54ae2c26648@6c48a"
+  }
+}

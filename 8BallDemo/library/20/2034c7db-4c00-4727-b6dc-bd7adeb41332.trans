@@ -1,0 +1,7 @@
+{
+    "resolveMap": {
+        "../../../Common/SourceManager": "../../../Common/SourceManager.ts",
+        "../GameSceneManager": "../GameSceneManager.ts",
+        "./BallType": "BallType.ts"
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yunbig",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 257,
+      "height": 125
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 257,
+      "height": 125
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "48bacbdd-96fb-429a-9b22-c8b32d5e944d@6c48a"
+  }
+}

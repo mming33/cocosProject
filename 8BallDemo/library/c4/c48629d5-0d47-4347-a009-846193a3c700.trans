@@ -1,0 +1,11 @@
+{
+    "resolveMap": {
+        "../../../Common/ServerCommon": "../../../Common/ServerCommon.ts",
+        "../../../Common/SourceManager": "../../../Common/SourceManager.ts",
+        "../../../Utils/MKEventDispatch": "../../../Utils/MKEventDispatch.ts",
+        "../../../Utils/NDBTS": "../../../Utils/NDBTS.ts",
+        "../../GameData": "../../GameData.ts",
+        "../../Popup/PopupManager": "../../Popup/PopupManager.ts",
+        "../RoundType": "../RoundType.ts"
+    }
+}

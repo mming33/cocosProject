@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "landian",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 163,
+      "height": 304
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 163,
+      "height": 304
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "47b86816-a1e3-496f-b813-876c159572ca@6c48a"
+  }
+}

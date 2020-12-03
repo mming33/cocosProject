@@ -1,0 +1,73 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "093f85ee-6117-47a5-a2e8-9096d6724860",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "093f85ee-6117-47a5-a2e8-9096d6724860@6c48a",
+      "displayName": "Rectangle_1",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "093f85ee-6117-47a5-a2e8-9096d6724860"
+      },
+      "ver": "1.0.20",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "093f85ee-6117-47a5-a2e8-9096d6724860@f9941",
+      "displayName": "Rectangle_1",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 214,
+        "height": 8,
+        "rawWidth": 214,
+        "rawHeight": 8,
+        "borderTop": 2,
+        "borderBottom": 2,
+        "borderLeft": 8,
+        "borderRight": 8,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "093f85ee-6117-47a5-a2e8-9096d6724860@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.8",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "sprite-frame",
+    "redirect": "093f85ee-6117-47a5-a2e8-9096d6724860@f9941"
+  }
+}

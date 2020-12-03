@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hongdian",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 163,
+      "height": 304
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 163,
+      "height": 304
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "bc491064-6d75-4b5b-a4c0-160edc4a051c@6c48a"
+  }
+}

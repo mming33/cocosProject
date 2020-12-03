@@ -1,0 +1,7 @@
+{
+    "resolveMap": {
+        "./Ball": "Ball.ts",
+        "./BallManager": "BallManager.ts",
+        "./RackManager": "RackManager.ts"
+    }
+}

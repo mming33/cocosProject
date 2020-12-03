@@ -1,0 +1,213 @@
+{
+  "uuid": {
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/GaoGuang.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/Gun.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/TableMaterial.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/color-001.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/color.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/material-001.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/Materials/material.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/10.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/11.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/12.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/13.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/14.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/15.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/2.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/3.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/4.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/5.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/6.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/7.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/8.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/9.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/Shadow.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/gaoguang.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/GitHub/CocosGames/8BallDemo/assets/res/modle/ballMaterials/whiteBall.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/Gun.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/TableMaterial.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/color-001.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/color.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/material-001.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/material.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/10.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/11.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/12.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/13.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/14.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/15.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/2.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/3.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/4.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/5.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/6.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/7.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/8.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/9.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/Shadow.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/gaoguang.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/whiteBall.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials/BallLight.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/HoleEffect.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/Ballight.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/Materials/BallLight.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/1.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/2.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/5.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/3.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/4.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/6.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/7.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/8.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/9.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/10.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/11.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/12.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/13.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/14.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/modle/ballMaterials2/15.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ]
+  },
+  "path": {
+    "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/UI/MainSceneUI/headPlist.plist": [
+      "/Users/mac/Desktop/Projects/git/CocosGames/8BallDemo/assets/res/UI/MainSceneUI/headPlist.png"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "update",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 118
+    },
+    "offset": {
+      "x": 0,
+      "y": 3
+    },
+    "originalSize": {
+      "width": 320,
+      "height": 124
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1498fbfb-07bb-4008-9482-49b4dcbb8953@6c48a"
+  }
+}

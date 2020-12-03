@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_liang",
+    "atlas": "",
+    "rect": {
+      "x": 15,
+      "y": 0,
+      "width": 514,
+      "height": 320
+    },
+    "offset": {
+      "x": 7.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 529,
+      "height": 320
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3ba51db3-8672-4768-85a6-a19c6e27d5ee@6c48a"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "resolveMap": {
+        "../Game/GameCommon/UI/MainSceneUI": "../Game/GameCommon/UI/MainSceneUI.ts",
+        "../Game/GameData": "../Game/GameData.ts",
+        "../Game/Popup/PopupManager": "../Game/Popup/PopupManager.ts",
+        "../Utils/MKMessageManager": "../Utils/MKMessageManager.ts",
+        "../Utils/MKMessageType": "../Utils/MKMessageType.ts",
+        "../Utils/MKResourcesManager": "../Utils/MKResourcesManager.ts"
+    }
+}

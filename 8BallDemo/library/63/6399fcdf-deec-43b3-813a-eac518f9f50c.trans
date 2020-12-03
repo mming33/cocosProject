@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "../GameCommon/Ball/BallManager": "../GameCommon/Ball/BallManager.ts",
+        "../GameCommon/Ball/BallType": "../GameCommon/Ball/BallType.ts"
+    }
+}

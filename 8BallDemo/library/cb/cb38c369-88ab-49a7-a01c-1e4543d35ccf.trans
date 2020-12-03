@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "../../../Utils/MKMessageManager": "../../../Utils/MKMessageManager.ts"
+    }
+}

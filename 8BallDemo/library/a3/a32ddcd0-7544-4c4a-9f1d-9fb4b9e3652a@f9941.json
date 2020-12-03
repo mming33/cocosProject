@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BlueLightLeft",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 455,
+      "height": 96
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 455,
+      "height": 96
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "a32ddcd0-7544-4c4a-9f1d-9fb4b9e3652a@6c48a"
+  }
+}

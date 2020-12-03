@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "L2liang",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 2,
+      "width": 152,
+      "height": 250
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -1
+    },
+    "originalSize": {
+      "width": 153,
+      "height": 252
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "4cf850c8-0a4b-44cf-ae52-bb51e32927c5@6c48a"
+  }
+}

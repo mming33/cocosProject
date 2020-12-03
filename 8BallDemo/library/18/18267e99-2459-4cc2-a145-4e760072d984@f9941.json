@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "toast",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 8,
+      "width": 512,
+      "height": 83
+    },
+    "offset": {
+      "x": -2,
+      "y": -3.5
+    },
+    "originalSize": {
+      "width": 516,
+      "height": 92
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "18267e99-2459-4cc2-a145-4e760072d984@6c48a"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guang-001",
+    "atlas": "",
+    "rect": {
+      "x": 19,
+      "y": 0,
+      "width": 849,
+      "height": 104
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 888,
+      "height": 104
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "8d23d2fa-35d0-472e-86f9-7f005c43330c@6c48a"
+  }
+}
