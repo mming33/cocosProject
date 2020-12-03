@@ -1,0 +1,109 @@
+{
+  "current-scene": "f011cbd2-8913-426e-b1b6-82e591c123e1",
+  "gizmos-infos": {
+    "gridColor": [
+      150,
+      150,
+      150,
+      255
+    ],
+    "gridVisible": true,
+    "iconGizmoSize": 2,
+    "iconSize": 2,
+    "is2D": true,
+    "is3DIcon": false,
+    "isGridVisible": true,
+    "isIconGizmo3D": false
+  },
+  "camera-infos": {
+    "027d619b-7179-4122-99eb-5cc9dfed7b67": {
+      "position": {
+        "x": 480,
+        "y": 320,
+        "z": 1000
+      },
+      "rotation": {
+        "w": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "a695cf6a-cc7a-46b8-8eb2-507bad11de76": {
+      "position": {
+        "x": 293.0434782608696,
+        "y": 320,
+        "z": 1000
+      },
+      "rotation": {
+        "w": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "f011cbd2-8913-426e-b1b6-82e591c123e1": {
+      "position": {
+        "x": 528.0866309360902,
+        "y": 317.5121639083576,
+        "z": 1000
+      },
+      "rotation": {
+        "w": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "f46876e4-e81b-4931-b493-6d367be385e7": {
+      "position": {
+        "x": 480.00000000000006,
+        "y": 320,
+        "z": 1000
+      },
+      "rotation": {
+        "w": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  "camera-uuids": [
+    "f011cbd2-8913-426e-b1b6-82e591c123e1"
+  ],
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "bottom": 10,
+          "dock": false,
+          "left": null,
+          "right": 10,
+          "top": null
+        }
+      }
+    }
+  },
+  "__version__": "1.0.0"
+}

@@ -1,0 +1,16 @@
+{
+  "ver": "4.0.1",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "21d43b91-fa3a-41fb-afc8-c0ae9466e3d2",
+  "files": [
+    ".js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Common/Popup/Popups/TestPrefab0.js",
+    "importerSettings": 0
+  }
+}
