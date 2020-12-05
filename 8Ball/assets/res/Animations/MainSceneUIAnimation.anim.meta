@@ -1,0 +1,13 @@
+{
+  "ver": "1.0.11",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "f85255ed-7ddd-49b7-bd2c-1dc4a812cb26",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "MainSceneUIAnimation"
+  }
+}

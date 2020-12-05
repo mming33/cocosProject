@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "../Storage/DataStorage": "../Storage/DataStorage.ts"
+    }
+}

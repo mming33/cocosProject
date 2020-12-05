@@ -1,0 +1,9 @@
+{
+    "resolveMap": {
+        "../Game/MyComponent": "../Game/MyComponent.ts",
+        "../NoSleep/noSleep": "../NoSleep/noSleep.ts",
+        "../Popup/PopupManager": "../Popup/PopupManager.ts",
+        "../Server/GetServerData": "../Server/GetServerData.ts",
+        "../Sound/SoundManager": "../Sound/SoundManager.ts"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "resolveMap": {
+        "../../Common/Game/MyComponent": "../../Common/Game/MyComponent.ts",
+        "../../Common/Server/GetServerData": "../../Common/Server/GetServerData.ts",
+        "../../Common/Sound/SoundManager": "../../Common/Sound/SoundManager.ts"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "path": {
+    "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/MainScene/headPlist.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/MainScene/headPlist.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/MainScene/MainSceneUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/MainScene/MainSceneUI.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/Button/ButtonUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/Button/ButtonUI.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/GameScene/GameSceneUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8Ball/assets/res/Images/GameScene/GameSceneUI.png"
+    ]
+  }
+}

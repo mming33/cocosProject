@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GunSlider",
+    "atlas": "c8177c21-2495-47c2-a0be-aeb91d9b217a",
+    "rect": {
+      "x": 713,
+      "y": 424,
+      "width": 20,
+      "height": 385
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 20,
+      "height": 385
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "bd0a72c0-037a-45b2-9cc7-4f0114a1c9ba@6c48a"
+  }
+}

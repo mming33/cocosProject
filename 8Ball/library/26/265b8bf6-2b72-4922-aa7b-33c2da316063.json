@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "ButtonUI",
+    "spriteFrames": [
+      "BGA",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@f8432",
+      "BreakGame",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@a46b8",
+      "CloseSound",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@91fd6",
+      "GloadImage",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@4fc22",
+      "GloadNumberBG",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@7807f",
+      "Gloads",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@f856d",
+      "IdelHeadImage",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@1ba97",
+      "ReturnMainScene",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@2c9b6",
+      "btn-play again",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@4905b",
+      "icon",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@b61ea",
+      "loadIcon",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@a79f1",
+      "no",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@76207",
+      "openSound",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@cbacd",
+      "update",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@3837c",
+      "yes",
+      "265b8bf6-2b72-4922-aa7b-33c2da316063@a083e"
+    ]
+  }
+}

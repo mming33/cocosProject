@@ -1,0 +1,149 @@
+import { CanvasComponent, Node, director, find, GFXClearFlag, loader, SpriteComponent, UITransformComponent, _decorator } from 'cc';
+import { MyComponent } from '../Game/MyComponent';
+import noSleep from '../NoSleep/noSleep';
+import { Popup } from '../Popup/Popup';
+import { PopupManager } from '../Popup/PopupManager';
+import { GetServerData } from '../Server/GetServerData';
+import { SoundManager } from '../Sound/SoundManager';
+const { ccclass, property } = _decorator;
+
+@ccclass('LoadManager')
+export class LoadManager extends MyComponent {
+    static I: LoadManager;
+
+    static loadIndex: number = 0;
+    static allloadIndex: number = 4;
+    sliderItem: SpriteComponent;
+    Init() {
+        LoadManager.I = this.node.getComponent(LoadManager);
+        LoadManager.loadIndex = 0;
+        this.LoadPopupsPrefab();
+        this.LoadSoundPrefab();
+        this.LoadScenes();
+        this.NoSleep();
+        this.schedule(this.LoadSlider, 0.01)
+        this.sliderItem = find("Canvas/Slider/Item").getComponent(SpriteComponent);
+    }
+
+    LoadSlider() {
+        if (LoadManager.loadIndex >= LoadManager.allloadIndex) {
+            this.LoadServerData();
+            this.unschedule(this.LoadSlider);
+        } else {
+            this.sliderItem.fillRange = LoadManager.loadIndex / LoadManager.allloadIndex;
+            console.log(LoadManager.loadIndex);
+        }
+    }
+
+    /**
+     * 加载弹窗的预制体，并初始化PopupManager中的popups数组
+     */
+    LoadPopupsPrefab() {
+        this.CreatePopupParent();
+        loader.loadResDir("PopupsPrefab", function (err, assets) {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            for (let i = 0; i < assets.length; i++) {
+                const element = assets[i];
+                PopupManager.I.popups.push(element);
+            }
+            LoadManager.loadIndex++;
+            console.log(PopupManager.I.popups);
+        });
+    }
+    /**
+     * 加载音效，并初始化SoundManager.I.audios
+     */
+    LoadSoundPrefab() {
+        this.CreateSoundManager();
+        loader.loadResDir("Sounds", function (err, assets) {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            for (let i = 0; i < assets.length; i++) {
+                const element = assets[i];
+                SoundManager.I.audios.push(element);
+            }
+            LoadManager.loadIndex++;
+            console.log(SoundManager.I.audios);
+        });
+    }
+    LoadScenes() {
+        director.preloadScene("MainScene", () => {
+            LoadManager.loadIndex++;
+        });
+        director.preloadScene("GameScene", () => {
+            LoadManager.loadIndex++;
+        });
+    }
+    LoadServerData() {
+        this.GetUserInfo()
+    }
+    GetUserInfo() {
+        GetServerData.getUserinfo(() => {
+            LoadManager.I.GetUserCoin();
+        }, () => {
+            LoadManager.I.LoadServerErr(this.GetUserInfo);
+        });
+    }
+    GetUserCoin() {
+        GetServerData.GetCoin(() => {
+            LoadManager.I.Join();
+        }, () => {
+            LoadManager.I.LoadServerErr(this.GetUserCoin);
+        });
+    }
+    Join() {
+        GetServerData.join(() => {
+            // LoadManager.I.LoadServerErr(LoadManager.I.Join);
+            this.scheduleOnce(() => {
+                this.sliderItem.fillRange = 1;
+                director.loadScene("MainScene");
+            }, 1.5);
+        }, () => {
+            LoadManager.I.LoadServerErr(LoadManager.I.Join);
+        });
+    }
+    LoadServerErr(NoBtnFunc: Function) {
+        PopupManager.I.ShowPopup("TipPopup",
+            {
+                TipString: "Network exception. Please try again!",
+                YesBtnString: "OK",
+                NoBtnString: "Retry",
+                YesBtn: () => {
+                    GetServerData.LeaveGame();
+                    PopupManager.I.ClosePopup(true);
+                },
+                NoBtn: () => {
+                    PopupManager.I.ClosePopup(true);
+                    NoBtnFunc();
+                }
+            }, true);
+    }
+    NoSleep() {
+        let nosleep = new noSleep();
+        nosleep.enable();
+    }
+    private CreatePopupParent() {
+        let popup = new Node("Popup");
+        popup.addChild(new Node("one"));
+        popup.addChild(new Node("two"));
+        let uiTransformComponent = popup.addComponent(UITransformComponent);
+        let canvasComponent = popup.addComponent(CanvasComponent);
+        let popupManager = popup.addComponent(PopupManager);
+        canvasComponent.clearFlag = GFXClearFlag.DEPTH;
+        canvasComponent.renderMode = 0;
+        canvasComponent.priority = 10;
+        this.node.parent.addChild(popup);
+        console.log(popup);
+    }
+    private CreateSoundManager() {
+        let soundManager = new Node("SoundManager");
+        soundManager.addComponent(SoundManager);
+        this.node.parent.addChild(soundManager);
+        console.log(soundManager);
+    }
+}

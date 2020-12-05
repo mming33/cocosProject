@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "combo8",
+    "atlas": "c8177c21-2495-47c2-a0be-aeb91d9b217a",
+    "rect": {
+      "x": 416,
+      "y": 459,
+      "width": 393,
+      "height": 116
+    },
+    "offset": {
+      "x": 0,
+      "y": 19
+    },
+    "originalSize": {
+      "width": 395,
+      "height": 154
+    },
+    "rotated": true,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "bd0a72c0-037a-45b2-9cc7-4f0114a1c9ba@6c48a"
+  }
+}

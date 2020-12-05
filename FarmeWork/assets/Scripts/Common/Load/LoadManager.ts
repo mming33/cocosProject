@@ -21,7 +21,10 @@ export class LoadManager extends MyComponent {
     }
     LoadSlider() {
         if (LoadManager.loadIndex >= LoadManager.allloadIndex) {
-            director.loadScene("MainScene");
+            this.scheduleOnce(() => {
+                this.sliderItem.fillRange = 1;
+                director.loadScene("MainScene");
+            }, 1.5);
             this.unschedule(this.LoadSlider);
         } else {
             this.sliderItem.fillRange = LoadManager.loadIndex / LoadManager.allloadIndex;

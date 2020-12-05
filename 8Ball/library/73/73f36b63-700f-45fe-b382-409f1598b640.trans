@@ -1,0 +1,8 @@
+{
+    "resolveMap": {
+        "../Storage/DataStorage": "../Storage/DataStorage.ts",
+        "../Utils/MKMessageManager": "../Utils/MKMessageManager.ts",
+        "../Utils/MKResourcesManager": "../Utils/MKResourcesManager.ts",
+        "../Utils/NDBTS": "../Utils/NDBTS.ts"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "../../Common/Popup/Popup": "../../Common/Popup/Popup.ts"
+    }
+}

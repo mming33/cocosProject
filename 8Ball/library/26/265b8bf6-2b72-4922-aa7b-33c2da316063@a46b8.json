@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BreakGame",
+    "atlas": "265b8bf6-2b72-4922-aa7b-33c2da316063",
+    "rect": {
+      "x": 1452,
+      "y": 2,
+      "width": 64,
+      "height": 64
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 64
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "d2734622-041d-4772-9bf5-c540699c68e6@6c48a"
+  }
+}

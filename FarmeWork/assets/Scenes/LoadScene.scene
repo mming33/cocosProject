@@ -134,7 +134,7 @@
       "__type__": "cc.Quat",
       "x": -0.27781593346944056,
       "y": -0.36497167621709875,
-      "z": -0.11507512748638377,
+      "z": -0.11507512748638375,
       "w": 0.8811195706053617
     },
     "_lscale": {
@@ -432,7 +432,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "0da256a2-21f6-481b-90b6-d3643a09179b@f9941"
+      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941"
     },
     "_type": 3,
     "_fillType": 0,
@@ -443,7 +443,7 @@
       "y": 0
     },
     "_fillStart": 0,
-    "_fillRange": 0,
+    "_fillRange": 1,
     "_isTrimmedMode": true,
     "_useGrayscale": false,
     "_atlas": null,
@@ -595,9 +595,9 @@
     "_distance": 0,
     "_shadowColor": {
       "__type__": "cc.Color",
-      "r": 76,
-      "g": 76,
-      "b": 76,
+      "r": 122,
+      "g": 122,
+      "b": 122,
       "a": 255
     },
     "_pcf": 0,
