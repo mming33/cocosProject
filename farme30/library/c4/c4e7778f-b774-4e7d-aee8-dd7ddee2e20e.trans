@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "./Common/Popup/PopupManager": "Common/Popup/PopupManager.ts",
+        "./Common/Sound/SoundManager": "Common/Sound/SoundManager.ts"
+    }
+}

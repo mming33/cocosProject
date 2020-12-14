@@ -1,0 +1,27 @@
+{
+  "path": {
+    "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/Button/ButtonUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/Button/ButtonUI.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/MainScene/MainSceneUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/MainScene/MainSceneUI.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/MainScene/headPlist.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/MainScene/headPlist.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/GameScene/GameSceneUI.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/8BallGame3_0/assets/res/Images/GameScene/GameSceneUI.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/Number.plist": [
+      "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/Number.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/myFont.fnt": [
+      "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/myFont.png"
+    ]
+  },
+  "uuid": {
+    "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/res/Materials/MainScene/plane.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ]
+  }
+}

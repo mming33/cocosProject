@@ -1,0 +1,142 @@
+{
+  "mtimes": {
+    "43b85976-2032-4272-bc2d-53a2acc1150c": 1607948559000,
+    "1191f499-beeb-4775-9459-8bb8db91b771@f9941": null,
+    "1191f499-beeb-4775-9459-8bb8db91b771@6c48a": null,
+    "1191f499-beeb-4775-9459-8bb8db91b771": 1607938647000,
+    "32611bd4-bace-476b-8f59-6f13f2f2fd18@f9941": null,
+    "32611bd4-bace-476b-8f59-6f13f2f2fd18@6c48a": null,
+    "32611bd4-bace-476b-8f59-6f13f2f2fd18": 1607944485000,
+    "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@f9941": null,
+    "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@6c48a": null,
+    "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12": 1607938647000
+  },
+  "sharpMd5": "ca3dc30d9f0b30242057268d577fabea",
+  "result": {
+    "atlases": [
+      {
+        "imageUuid": "178e560ad",
+        "textureUuid": "178e560ad@6c48a",
+        "compressed": {
+          "imagePathNoExt": "",
+          "suffixs": [
+            ".png"
+          ]
+        },
+        "spriteFrameInfos": [
+          {
+            "name": "yuan",
+            "uuid": "32611bd4-bace-476b-8f59-6f13f2f2fd18@f9941",
+            "imageUuid": "32611bd4-bace-476b-8f59-6f13f2f2fd18",
+            "textureUuid": "32611bd4-bace-476b-8f59-6f13f2f2fd18@6c48a",
+            "file": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/res/Images/SmallImage/yuan.png",
+            "libraryPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/temp/builder/TexturePacker1.0.1/build/trimImages/spritesheet_js_32611bd4-bace-476b-8f59-6f13f2f2fd18@f9941_image_1.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 150,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 150,
+            "rawHeight": 150,
+            "width": 156,
+            "height": 156,
+            "originalPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/library/32/32611bd4-bace-476b-8f59-6f13f2f2fd18.png",
+            "rotated": false,
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 156,
+            "rotatedHeight": 156
+          },
+          {
+            "name": "SliderBG",
+            "uuid": "1191f499-beeb-4775-9459-8bb8db91b771@f9941",
+            "imageUuid": "1191f499-beeb-4775-9459-8bb8db91b771",
+            "textureUuid": "1191f499-beeb-4775-9459-8bb8db91b771@6c48a",
+            "file": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/res/Images/SmallImage/SliderBG.png",
+            "libraryPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/temp/builder/TexturePacker1.0.1/build/trimImages/spritesheet_js_1191f499-beeb-4775-9459-8bb8db91b771@f9941_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 159,
+              "width": 530,
+              "height": 66,
+              "rotatedWidth": 66,
+              "rotatedHeight": 530
+            },
+            "rawWidth": 530,
+            "rawHeight": 66,
+            "width": 536,
+            "height": 72,
+            "originalPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/library/11/1191f499-beeb-4775-9459-8bb8db91b771.png",
+            "rotated": true,
+            "x": 0,
+            "y": 156,
+            "rotatedWidth": 72,
+            "rotatedHeight": 536
+          },
+          {
+            "name": "SliderItem",
+            "uuid": "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@f9941",
+            "imageUuid": "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12",
+            "textureUuid": "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@6c48a",
+            "file": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/res/Images/SmallImage/SliderItem.png",
+            "libraryPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/temp/builder/TexturePacker1.0.1/build/trimImages/spritesheet_js_52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@f9941_image_2.png",
+            "trim": {
+              "x": 75,
+              "y": 159,
+              "width": 605,
+              "height": 59,
+              "rotatedWidth": 59,
+              "rotatedHeight": 605
+            },
+            "rawWidth": 605,
+            "rawHeight": 59,
+            "width": 611,
+            "height": 65,
+            "originalPath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/library/52/52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12.png",
+            "rotated": true,
+            "x": 72,
+            "y": 156,
+            "rotatedWidth": 65,
+            "rotatedHeight": 611
+          }
+        ],
+        "width": 156,
+        "height": 767,
+        "name": "auto-atlas-0",
+        "imagePath": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/temp/builder/TexturePacker1.0.1/preview/43b85976-2032-4272-bc2d-53a2acc1150c/178e560ad.png"
+      }
+    ],
+    "options": {
+      "name": "auto-atlas",
+      "width": 1024,
+      "height": 1024,
+      "destDir": "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/temp/builder/TexturePacker1.0.1/preview/43b85976-2032-4272-bc2d-53a2acc1150c",
+      "maxWidth": 1024,
+      "maxHeight": 1024,
+      "padding": 2,
+      "allowRotation": true,
+      "forceSquared": false,
+      "powerOfTwo": false,
+      "algorithm": "MaxRects",
+      "format": "png",
+      "quality": 80,
+      "contourBleed": true,
+      "paddingBleed": true,
+      "filterUnused": false,
+      "compressSettings": {},
+      "textureSetting": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1
+      },
+      "bleed": 1
+    },
+    "unpackedImages": []
+  }
+}

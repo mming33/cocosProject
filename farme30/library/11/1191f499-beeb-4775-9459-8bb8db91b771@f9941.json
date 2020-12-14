@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SliderBG",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 530,
+      "height": 66
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 530,
+      "height": 66
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1191f499-beeb-4775-9459-8bb8db91b771@6c48a"
+  }
+}
