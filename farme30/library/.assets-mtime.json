@@ -635,9 +635,9 @@
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/resources/Number/myFont.png.meta": 1607949371000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scenes": 1607311321000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts": 1607309099000,
-  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common": 1608002420000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common": 1608031878000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/resources/Number/Number.plist.meta": 1607948741000,
-  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scenes/MainScene.scene": 1608024037000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scenes/MainScene.scene": 1608031403000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/Events": 1607309099000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scenes/GameScene.scene": 1608022887000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scenes/LoadScene.scene": 1608016359000,
@@ -672,7 +672,7 @@
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Animations": 1607946217000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Animations/LoadScene": 1607946212000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Animations/LoadScene/LoadAnimation.anim": 1607946161000,
-  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Game/MainScene/MainSceneUI.ts": 1608023704000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Game/MainScene/MainSceneUI.ts": 1608031488000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images": 1608004380000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/BigImages": 1608001119000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/SmallImage": 1608024007000,
@@ -756,5 +756,11 @@
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Materials/MainScene/head.mtl.meta": 1608020661000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Materials/MainScene/head.mtl": 1608020630000,
   "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/SmallImage/touming.png.meta": 1608024016000,
-  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/SmallImage/touming.png": 1608023985000
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/SmallImage/touming.png": 1608023985000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine.meta": 1608031878000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine": 1608035102000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine/StateMachineController.ts.meta": 1608031892000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine/StateMachineController.ts": 1608032171000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine/IState.ts.meta": 1608035102000,
+  "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/Scripts/Common/StateMachine/IState.ts": 1608035102000
 }
