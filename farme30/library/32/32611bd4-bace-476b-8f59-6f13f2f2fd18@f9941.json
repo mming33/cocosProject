@@ -19,10 +19,10 @@
     },
     "rotated": false,
     "capInsets": [
-      0,
-      0,
-      0,
-      0
+      75,
+      75,
+      75,
+      75
     ],
     "texture": "32611bd4-bace-476b-8f59-6f13f2f2fd18@6c48a"
   }

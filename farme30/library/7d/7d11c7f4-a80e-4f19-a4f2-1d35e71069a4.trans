@@ -1,7 +1,0 @@
-{
-    "resolveMap": {
-        "../Utils/MKMessageManager": "MKMessageManager.ts",
-        "../Utils/MKSound": "MKSound.ts",
-        "./MKEventDispatch": "MKEventDispatch.ts"
-    }
-}

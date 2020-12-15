@@ -1,18 +1,18 @@
-2020-12-14 17:55:12-log: [Package] menu@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] profile@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] messages@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] program@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] device@1.0.1 enable
-2020-12-14 17:55:12-log: [Package] ui-kit@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] tester@1.0.0 enable
-2020-12-14 17:55:12-log: [Package] preferences@1.0.0 enable
-2020-12-14 17:55:13-log: Setup mods mgr.: 474.603ms
-2020-12-14 17:55:13-log: [Package] engine@1.0.3 enable
-2020-12-14 17:55:13-log: [Package] asset-db@1.0.0 enable
-2020-12-14 17:55:13-log: [Package] console@1.0.0 enable
-2020-12-14 17:55:13-log: [Package] scene@1.0.0 enable
-2020-12-14 17:55:13-log: [Package] extension@3.0.0 enable
-2020-12-14 17:55:13-log: [Package] project@1.0.1 enable
-2020-12-14 17:55:13-log: [Package] about@1.0.0 enable
-2020-12-14 17:55:13-log: [Package] server@1.0.0 enable
-2020-12-14 17:55:14-log: [Package] utils@1.0.0 enable
+2020-12-15 14:46:36-log: [Package] menu@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] profile@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] messages@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] program@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] device@1.0.1 enable
+2020-12-15 14:46:37-log: [Package] ui-kit@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] tester@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] preferences@1.0.0 enable
+2020-12-15 14:46:37-log: Setup mods mgr.: 462.043ms
+2020-12-15 14:46:37-log: [Package] engine@1.0.3 enable
+2020-12-15 14:46:37-log: [Package] asset-db@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] console@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] scene@1.0.0 enable
+2020-12-15 14:46:37-log: [Package] extension@3.0.0 enable
+2020-12-15 14:46:37-log: [Package] project@1.0.1 enable
+2020-12-15 14:46:37-log: [Package] about@1.0.0 enable
+2020-12-15 14:46:38-log: [Package] server@1.0.0 enable
+2020-12-15 14:46:38-log: [Package] utils@1.0.0 enable

@@ -1,0 +1,17 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "90b4ef5b-bdfd-4781-a9cc-ed1d687ca2f8",
+  "files": [
+    ".js",
+    "editor.js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/res/XiaoFei/XiaoFeiScripts/XiaoFei.js",
+    "importerSettings": 7
+  }
+}

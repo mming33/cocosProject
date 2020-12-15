@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lefteye",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 14,
+      "height": 14
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 14,
+      "height": 14
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "87279d63-e325-4e84-a83f-3bb2335a660c@6c48a"
+  }
+}

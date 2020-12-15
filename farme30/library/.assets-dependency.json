@@ -17,10 +17,25 @@
     ],
     "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/myFont.fnt": [
       "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/resources/Number/myFont.png"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/BigImages/myFont.fnt": [
+      "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Images/BigImages/myFont.png"
     ]
   },
   "uuid": {
     "/Users/mac/Desktop/MyProject/MyCocos/FarmeWork3_0/assets/res/Materials/MainScene/plane.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Materials/MainScene/plane.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+      "1d08ef62-a503-4ce2-8b9a-46c90873f7d3",
+      "810e96e4-e456-4468-9b59-f4e8f39732c0",
+      "1c02ae6f-4492-4915-b8f8-7492a3b1e4cd"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Materials/MainScene/plane-001.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "/Users/mac/Desktop/MyProject/MyCocos/farme30/assets/res/Materials/MainScene/head.mtl": [
       "1baf0fc9-befa-459c-8bdd-af1a450a0319"
     ]
   }
