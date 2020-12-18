@@ -1,6 +1,6 @@
 {
   "__version__": "1.0.0",
-  "current-scene": "09ce0bb6-a1e4-4576-b6fb-e9c2e3f72851",
+  "current-scene": "76931d54-40be-4d2b-a42d-477cc55afad9",
   "gizmos-infos": {
     "gridColor": [
       150,
@@ -19,9 +19,9 @@
   "camera-infos": {
     "09ce0bb6-a1e4-4576-b6fb-e9c2e3f72851": {
       "position": {
-        "x": 331.8695791808898,
-        "y": 562.5066410402491,
-        "z": 1000
+        "x": 236.964,
+        "y": 638.842,
+        "z": 300
       },
       "rotation": {
         "w": 1,
@@ -30,8 +30,8 @@
         "z": 0
       },
       "viewCenter": {
-        "x": 0,
-        "y": 0,
+        "x": 236.964,
+        "y": 638.842,
         "z": 0
       }
     },
@@ -145,7 +145,7 @@
     }
   },
   "camera-uuids": [
-    "8eb8b8e6-64ee-4b1f-b229-87c6777b0dff"
+    "09ce0bb6-a1e4-4576-b6fb-e9c2e3f72851"
   ],
   "float-window": {
     "position": {

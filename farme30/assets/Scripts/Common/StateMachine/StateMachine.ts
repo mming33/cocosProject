@@ -1,32 +1,10 @@
-
-import { _decorator, Component, Node } from 'cc';
-import { IState } from './IState';
-const { ccclass, property } = _decorator;
-
-@ccclass('StateMachineController')
-export class StateMachineController {
-    //游戏流程管理器
-    StartGame() {
-
-    }
-    /**关卡开始 */
-    CheckpointStart() {
-
-    }
-    /**状态机初始化 */
-    StateMachineInit() {
-
-    }
-    /**状态机轮训 */
-    StateMachineUpdata() {
-
-    }
-}
-
+import { IState } from "./IState";
 
 export class StateMachine {
     private static stateMap: Map<string, IState> = new Map<string, IState>();
     private static nowState: IState;
+
+
 
     /** 初始化状态机 设置启动状态
      * @param name 启动状态名
@@ -95,6 +73,32 @@ export class StateMachine {
 
         } else {
             console.error("切换状态失败:", this.nowState.stateName, "-->", to);
+            return false;
+        }
+    }
+
+    /**跳转到下个状态 (canToStateName中的第一个状态) */
+    static NextState(arg1?: any, arg2?: any) {
+        let formState = this.nowState;
+        let toState;
+        if (formState.canToStateName.length >= 1) {
+            toState = this.stateMap.get(formState.canToStateName[0]);
+        }
+        if (formState && toState) {
+            if (toState.canFromStateName.indexOf(this.nowState.stateName) != -1 && formState.canToStateName.indexOf(toState.stateName) != -1) {
+                formState.End(arg1);
+                toState.Start(arg2);
+                this.nowState = toState;
+                console.log("切换状态成功");
+                console.log("切换状态成功:", formState.stateName, "-->", toState.stateName);
+                return true;
+            } else {
+                console.error("切换状态失败:", this.nowState.stateName, "-->", toState?.stateName);
+                return false;
+            }
+
+        } else {
+            console.error("切换状态失败:", this.nowState.stateName, "-->", toState?.stateName);
             return false;
         }
     }

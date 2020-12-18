@@ -1,5 +1,4 @@
 import { _decorator, Component, Node, instantiate, Prefab, game, loader } from 'cc';
-import { LoadManager } from '../Load/LoadManager';
 import { MyListCommon } from '../MyMath/MyListCommon';
 import { Popup } from './Popup';
 const { ccclass, property } = _decorator;

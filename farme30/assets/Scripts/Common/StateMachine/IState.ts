@@ -1,4 +1,5 @@
 export interface IState {
+
     /**状态名 */
     stateName: string;
     /**可以转到的状态名 */

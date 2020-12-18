@@ -1,5 +1,4 @@
 import { _decorator, Component, Node, AudioSource, AudioClip, game } from 'cc';
-import { LoadManager } from '../Load/LoadManager';
 import { MyListCommon } from '../MyMath/MyListCommon';
 const { ccclass, property } = _decorator;
 
