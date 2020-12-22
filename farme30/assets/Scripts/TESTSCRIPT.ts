@@ -15,8 +15,7 @@ export class TESTSCRIPT extends Component {
         SoundManager.I.PlayBGMusic();
     }
     bool = true;
-    btn() {
-       StateMachine.ChangeState("StartGameState","Test1State");
-    }
+   
+
 
 }

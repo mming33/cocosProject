@@ -10,13 +10,14 @@ import { MyComponent } from '../../Common/Game/MyComponent';
 import { LoadState } from '../../Common/Load/LoadState';
 import { IState } from '../../Common/StateMachine/IState';
 import { StateMachine } from '../../Common/StateMachine/StateMachine';
+import { StateType } from '../../Common/StateMachine/StateType';
 const { ccclass, property } = _decorator;
 
 @ccclass('Test2')
 export class Test2 extends MyComponent implements IState {
-    stateName: string = "Test2State";
-    canToStateName: string[] = ["Test1State"];
-    canFromStateName: string[] = ["Test1State"];
+    stateName: string = StateType.Test2State;
+    canToStateName: string[] = [StateType.Test1State];
+    canFromStateName: string[] = [StateType.Test1State];
     onLoad() {
         this.addSelf2StateMap();
     }

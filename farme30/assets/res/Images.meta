@@ -6,7 +6,12 @@
   "files": [],
   "subMetas": {},
   "userData": {
-    "compressionType": {},
-    "isRemoteBundle": {}
+    "compressionType": {
+      "web-mobile": "none"
+    },
+    "isRemoteBundle": {
+      "web-mobile": false
+    },
+    "isBundle": false
   }
 }

@@ -4,6 +4,7 @@ import { PopupManager } from '../Popup/PopupManager';
 import { SoundManager } from '../Sound/SoundManager';
 import { IState } from '../StateMachine/IState';
 import { StateMachine } from '../StateMachine/StateMachine';
+import { StateType } from '../StateMachine/StateType';
 const { ccclass, property } = _decorator;
 
 @ccclass('LoadManager')
@@ -21,10 +22,20 @@ export class LoadManager extends MyComponent {
         LoadManager.I = this.node.getComponent(LoadManager) as LoadManager;
         this.sliderMask = (find("Canvas/Slider/Mask") as Node).getComponent(UITransformComponent) as UITransformComponent;
         this.sliderText = (find("Canvas/Slider/Text") as Node).getComponent(Label) as Label;
-        this.schedule(this.LoadSlider, 0.01);
+        this.schedule(this.LoadSlider, 0.015);
     }
 
     LoadSlider() {
+        if (this.LoadOver()) {
+            this.scheduleOnce(() => {
+                director.loadScene("MainScene");
+            }, 0.5);
+            this.unschedule(this.LoadSlider);
+        }
+
+    }
+
+    LoadOver(): boolean {
         if (this.sliderMask) {
             if (this.index <= LoadManager.loadIndex / LoadManager.allloadIndex) {
                 this.index += 0.01;
@@ -33,20 +44,15 @@ export class LoadManager extends MyComponent {
                 }
             }
             this.sliderMask.width = 517 * this.index;
-
         }
         if (LoadManager.loadIndex >= LoadManager.allloadIndex) {
-            //---------------------------
             LoadManager.loadIndex = LoadManager.allloadIndex
-            if (this.index >= 1) {
-                this.scheduleOnce(() => {
-                    StateMachine.NextState();
-                }, 0.5)
-                this.unschedule(this.LoadSlider);
-            }
-            //---------------------------
+        }
+
+        if (this.index >= 1) {
+            return true;
         } else {
-            console.log(LoadManager.loadIndex);
+            return false;
         }
     }
 }

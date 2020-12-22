@@ -11,14 +11,15 @@ import { PopupManager } from '../Popup/PopupManager';
 import { SoundManager } from '../Sound/SoundManager';
 import { IState } from '../StateMachine/IState';
 import { StateMachine } from '../StateMachine/StateMachine';
+import { StateType } from '../StateMachine/StateType';
 import { LoadManager } from './LoadManager';
 
 const { ccclass, property } = _decorator;
 
 @ccclass('LoadState')
 export class LoadState extends MyComponent implements IState {
-    stateName: string = "LoadState";
-    canToStateName: string[] = ["StartGameState"];
+    stateName: string = StateType.LoadState;
+    canToStateName: string[] = [StateType.MainSceneStartState];
     canFromStateName: string[] = [];
     onLoad() {
         game.addPersistRootNode(this.node);
@@ -34,7 +35,7 @@ export class LoadState extends MyComponent implements IState {
         this.LoadScenes();
     }
     End(arg?: any): void {
-        director.loadScene("MainScene");
+        // director.loadScene("MainScene");
     }
     addSelf2StateMap(): void {
         console.log("注册状态成功，name: ", this.stateName);

@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "11kfSZvutHdZRZi7jbkbdx@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "SliderBG",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 530,
+                "height": 66
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 530,
+                "height": 66
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "1191f499-beeb-4775-9459-8bb8db91b771@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

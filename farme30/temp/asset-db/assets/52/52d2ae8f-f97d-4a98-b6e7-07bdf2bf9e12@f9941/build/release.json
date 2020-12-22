@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "520q6P+X1KmLbnB73yv54S@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "SliderItem",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 605,
+                "height": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 605,
+                "height": 59
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "texture": "52d2ae8f-f97d-4a98-b6e7-07bdf2bf9e12@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

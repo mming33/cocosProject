@@ -4,6 +4,7 @@
         "../Popup/PopupManager": "../Popup/PopupManager.ts",
         "../Sound/SoundManager": "../Sound/SoundManager.ts",
         "../StateMachine/StateMachine": "../StateMachine/StateMachine.ts",
+        "../StateMachine/StateType": "../StateMachine/StateType.ts",
         "./LoadManager": "LoadManager.ts"
     }
 }

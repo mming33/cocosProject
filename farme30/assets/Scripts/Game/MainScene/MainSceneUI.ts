@@ -17,7 +17,7 @@ export class MainSceneUI extends MyComponent {
     InitFindNode() {
         this.UI = (find("Canvas/UI") as Node).getComponent(SpriteComponent) as SpriteComponent;
         this.bg = (find("Canvas/bg") as Node).getComponent(SpriteComponent) as SpriteComponent;
-        this.mainCamera = (find("Main Camera") as Node).getComponent(CameraComponent) as CameraComponent;
+        // this.mainCamera = (find("Node/Main Camera") as Node).getComponent(CameraComponent) as CameraComponent;
     }
 
     ShowUI() {

@@ -1,5 +1,4 @@
 import { IState } from "./IState";
-
 export class StateMachine {
     private static stateMap: Map<string, IState> = new Map<string, IState>();
     private static nowState: IState;

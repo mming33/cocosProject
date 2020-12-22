@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "../../../Common/Game/MyComponent": "../../../Common/Game/MyComponent.ts",
+        "./DoorType": "DoorType.ts"
+    }
+}

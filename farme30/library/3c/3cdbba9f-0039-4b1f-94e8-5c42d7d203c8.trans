@@ -1,6 +1,5 @@
 {
     "resolveMap": {
-        "../Game/MyComponent": "../Game/MyComponent.ts",
-        "../StateMachine/StateMachine": "../StateMachine/StateMachine.ts"
+        "../Game/MyComponent": "../Game/MyComponent.ts"
     }
 }

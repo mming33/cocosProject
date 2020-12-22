@@ -1,0 +1,53 @@
+[
+    1,
+    [
+        "32YRvUus5Ha49ZbxPy8v0Y@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "yuan",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 150,
+                "height": 150
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 150,
+                "height": 150
+            },
+            "rotated": false,
+            "capInsets": [
+                75,
+                75,
+                75,
+                75
+            ],
+            "texture": "32611bd4-bace-476b-8f59-6f13f2f2fd18@6c48a"
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]
