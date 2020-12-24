@@ -12,7 +12,7 @@ export class LoadManager extends MyComponent {
     static I: LoadManager;
 
     static loadIndex: number = 0;
-    static allloadIndex: number = 4;
+    static allloadIndex: number = 5;
 
     private sliderMask: UITransformComponent | undefined;
     private sliderText: Label | undefined;

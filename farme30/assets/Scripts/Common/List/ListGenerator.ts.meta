@@ -1,0 +1,17 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "1c9e57fb-69fb-4127-8638-c9f1d4663caf",
+  "files": [
+    ".js",
+    "editor.js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Common/List/ListGenerator.js",
+    "importerSettings": 7
+  }
+}

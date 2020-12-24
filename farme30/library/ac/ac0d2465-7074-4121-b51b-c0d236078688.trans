@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "../StateMachine/StateMachine": "../StateMachine/StateMachine.ts",
+        "../StateMachine/StateType": "../StateMachine/StateType.ts"
+    }
+}

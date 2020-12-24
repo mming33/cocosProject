@@ -1,19 +1,18 @@
-2020-12-22 14:02:27-log: [Package] menu@1.0.0 enable
-2020-12-22 14:02:27-log: [Package] profile@1.0.0 enable
-2020-12-22 14:02:27-log: [Package] messages@1.0.0 enable
-2020-12-22 14:02:27-log: [Package] program@1.0.0 enable
-2020-12-22 14:02:27-log: [Package] device@1.0.1 enable
-2020-12-22 14:02:28-log: [Package] ui-kit@1.0.0 enable
-2020-12-22 14:02:28-log: [Package] tester@1.0.0 enable
-2020-12-22 14:02:28-log: [Package] preferences@1.0.0 enable
-2020-12-22 14:02:28-log: Setup mods mgr.: 426.085ms
-2020-12-22 14:02:28-log: [Package] engine@1.0.3 enable
-2020-12-22 14:02:28-log: [Package] asset-db@1.0.0 enable
-2020-12-22 14:02:28-log: [Package] console@1.0.0 enable
-2020-12-22 14:02:28-log: [Package] scene@1.0.0 enable
-2020-12-22 14:02:28-log: [Package] extension@3.0.0 enable
-2020-12-22 14:02:28-log: [Package] project@1.0.1 enable
-2020-12-22 14:02:28-log: [Package] about@1.0.0 enable
-2020-12-22 14:02:29-log: [Package] server@1.0.0 enable
-2020-12-22 14:02:29-log: [Package] utils@1.0.0 enable
-2020-12-22 14:02:29-log: [Package] assets@1.0.0 enable
+2020-12-23 19:52:44-log: [Package] menu@1.0.0 enable
+2020-12-23 19:52:44-log: [Package] profile@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] messages@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] program@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] device@1.0.1 enable
+2020-12-23 19:52:45-log: [Package] ui-kit@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] tester@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] preferences@1.0.0 enable
+2020-12-23 19:52:45-log: Setup mods mgr.: 367.917ms
+2020-12-23 19:52:45-log: [Package] engine@1.0.3 enable
+2020-12-23 19:52:45-log: [Package] asset-db@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] console@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] scene@1.0.0 enable
+2020-12-23 19:52:45-log: [Package] extension@3.0.0 enable
+2020-12-23 19:52:45-log: [Package] project@1.0.1 enable
+2020-12-23 19:52:45-log: [Package] about@1.0.0 enable
+2020-12-23 19:52:46-log: [Package] server@1.0.0 enable
+2020-12-23 19:52:46-log: [Package] utils@1.0.0 enable

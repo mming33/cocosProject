@@ -1,0 +1,17 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "ac0d2465-7074-4121-b51b-c0d236078688",
+  "files": [
+    ".js",
+    "editor.js",
+    ".trans"
+  ],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Common/List/ListItem.js",
+    "importerSettings": 7
+  }
+}

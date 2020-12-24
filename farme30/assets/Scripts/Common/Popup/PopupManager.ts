@@ -30,11 +30,12 @@ export class PopupManager extends Component {
         let popups = isLevel2Popup ? this.TwoPopups : this.OnePopups;
         let popupsArg = isLevel2Popup ? this.TwoPopupsArg : this.OnePopupsArg;
         if ((this.node.getChildByName(isLevel2Popup ? "two" : "one") as Node).children.indexOf(popups[0].node) != -1) {
-            return;
+            return popups[0];
         } else {
             (this.node.getChildByName(isLevel2Popup ? "two" : "one") as Node).addChild(popups[0].node);
-            console.log("打开了弹窗", popups[0].name, "!",popups[0]);
+            console.log("打开了弹窗", popups[0].name, "!", popups[0]);
             popups[0].Init(popupsArg[0]);
+            return popups[0];
         }
     }
     ClosePopup(isLevel2Popup: boolean = false, popupName: string = "NULL_POPUP_NAME", arg?: any) {

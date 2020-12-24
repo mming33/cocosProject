@@ -18,7 +18,7 @@ export class GameSceneStartState extends MyComponent implements IState {
     stateName: string = StateType.GameSceneStartState;
     canToStateName: string[] = [StateType.StartGameState];
     canFromStateName: string[] = [StateType.MainSceneStartState];
-    Init() {
+    onLoad() {
         this.addSelf2StateMap();
     }
     Start(arg?: any): void {
@@ -28,6 +28,7 @@ export class GameSceneStartState extends MyComponent implements IState {
     End(arg?: any): void {
     }
     addSelf2StateMap(): void {
+        console.log("注册状态成功，name: ", this.stateName);
         StateMachine.AddState(this.stateName, this.node.getComponent(GameSceneStartState) as GameSceneStartState);
     }
 

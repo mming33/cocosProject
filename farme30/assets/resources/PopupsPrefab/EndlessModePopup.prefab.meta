@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.23",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "cad7dcca-d456-4ec3-bd94-a5d0e75a43d7",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "EndlessModePopup"
+  }
+}

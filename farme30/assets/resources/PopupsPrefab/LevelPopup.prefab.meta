@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.23",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "90ad6426-7adf-4633-82b2-ad4d0cedcc64",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "LevelPopup"
+  }
+}

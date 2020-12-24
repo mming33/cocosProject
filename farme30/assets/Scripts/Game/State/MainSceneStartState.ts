@@ -16,17 +16,18 @@ const { ccclass, property } = _decorator;
 @ccclass('MainSceneStartState')
 export class MainSceneStartState extends MyComponent implements IState {
     stateName: string = StateType.MainSceneStartState;
-    canToStateName: string[] = [];
-    canFromStateName: string[] = [StateType.LoadState];
-    Init() {
+    canFromStateName: string[] = [StateType.LoadState, StateType.ChooseLevelState, StateType.ChooseEndlessModeState, StateType.ShopPopupState, StateType.GameSettlementState];
+    canToStateName: string[] = [StateType.ChooseLevelState, StateType.ChooseEndlessModeState, StateType.ShopPopupState];
+    onLoad() {
         this.addSelf2StateMap();
     }
     Start(arg?: any): void {
-        console.log("开始游戏");
+        console.log("回到Home场景");
     }
     End(arg?: any): void {
     }
     addSelf2StateMap(): void {
+        console.log("注册状态成功，name: ", this.stateName);
         StateMachine.AddState(this.stateName, this.node.getComponent(MainSceneStartState) as MainSceneStartState);
     }
 

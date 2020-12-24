@@ -1,4 +1,4 @@
-import { CCClass, director, Enum, instantiate, Node, Prefab, Quat, System, systemEvent, v3, Vec3, _decorator } from "cc";
+import { CCClass, director, Enum, instantiate, math, Node, Prefab, Quat, System, systemEvent, v3, Vec3, _decorator } from "cc";
 import { DEBUG, EDITOR } from "cce.env";
 import { MyComponent } from "../../../Common/Game/MyComponent";
 import { Door } from "./Door";
@@ -18,26 +18,35 @@ export class FloorManager extends MyComponent {
     Camera: Node | null = null;
     @property(Node)
     Player: Node | null = null;
+    /**所有的地板 */
     allFloors: Floor[] = [];
-
-    data = {
-        Level1: {
-            floorData: "111111111111111111111111",
-            floorDirectionData: "111333222333111111111444",
-            doorData: "000000000000000000000000"
-        }
-    }
+    /**游戏模式 */
+    type: string = "level";
+    /**随机地板个数模式 */
+    randomIndex: number = 0;
+    /**上一个地板 */
+    lastNode: Node | null = null;
+    /**上一个地板 方向类型*/
+    lastFloorType = FloorType.FRONT;
+    /**同方向类型的地板个数*/
+    frontNumber: number = 0;
+    /**移动速度*/
+    movespeed: number = 5;
+    /**x方向*/
+    moveSpeedx: number = 0;
+    /**z方向*/
+    moveSpeedz: number = 0;
+    /**当前地板索引*/
+    nowFloorIndex: number = 0;
+    /**摄像机角度*/
+    cameraAngle: number = 0;
 
     onLoad() {
         FloorManager.I = this.node.getComponent(FloorManager) as FloorManager;
     }
     Init() {
-        // let door = this.CreateFloor(10001);
-        // if (door) {
-        //     this.node.addChild(door);
-        //     door.position = new Vec3(0, 0, 0)
-        // }
-        this.CreateFloorForJson(this.data);
+
+        // this.CreateFloorForJson(this.data);
     }
 
     CreateFloor(FloorID: number): Node | null {
@@ -55,18 +64,17 @@ export class FloorManager extends MyComponent {
     CreateFloorForJson(json: any) {
         // json = this.data;
         let node = this.node;
-        let x = 0;
-        let z = 0;
-        for (let i = 0; i < json.Level1.floorData.length; i++) {
-            const element = json.Level1.floorData[i];
+        for (let i = 0; i < json.floorData.length; i++) {
+            const element = json.floorData[i];
             const id = Number(element) + 10000;
             let floorNode = this.CreateFloor(id);
             if (floorNode) {
                 let type = this.SetNewFloorTypeData(floorNode, json, i);
                 if (i == 0) {
                     floorNode.setWorldPosition(0, 0, 0);
+                    this.lastNode = floorNode;
                 } else {
-                    ({ z, x } = this.SetFloorNodePosition(type, z, floorNode, x));
+                    this.SetFloorNodePosition(type, floorNode);
                 }
                 node.addChild(floorNode);
             }
@@ -74,35 +82,82 @@ export class FloorManager extends MyComponent {
         }
     }
 
-    private SetFloorNodePosition(type: FloorType, z: number, floorNode: Node, x: number) {
+    CreateFloorForRandom() {
+        // json = this.data;
+        let node = this.node;
+        let floorNode;
+        let floor = { floorType: FloorType.FRONT };
+        if (this.randomIndex <= 5) {
+            const id = Number(1) + 10000;
+            floorNode = this.CreateFloor(id);
+            floor.floorType = FloorType.FRONT;
+        } else {
+            const id = Number(1) + 10000;
+            floorNode = this.CreateFloor(id);
+            if (this.lastFloorType == FloorType.FRONT) {
+                if (this.frontNumber >= 5 && Math.random() < 0.2) {
+                    this.frontNumber = 0;
+                    if (Math.random() < 0.5)
+                        floor.floorType = FloorType.LEFT;
+                    else
+                        floor.floorType = FloorType.RIGHT;
+                } else {
+                    this.frontNumber++;
+                    floor.floorType = FloorType.FRONT;
+                }
+            } else if (this.lastFloorType == FloorType.LEFT || this.lastFloorType == FloorType.RIGHT) {
+                if (this.frontNumber >= 5 && Math.random() < 0.2) {
+                    this.frontNumber = 0;
+                    floor.floorType = FloorType.FRONT;
+                } else {
+                    this.frontNumber++;
+                    floor.floorType = this.lastFloorType;
+                }
+            }
+        }
+
+        if (floorNode) {
+            let f = floorNode.getComponent(Floor) as Floor;
+            f.floorType = floor.floorType;
+            this.lastFloorType = floor.floorType;
+            if (this.randomIndex == 0) {
+                floorNode.setWorldPosition(0, 0, 0);
+                this.lastNode = floorNode;
+            } else {
+                this.SetFloorNodePosition(floor.floorType, floorNode);
+            }
+            node.addChild(floorNode);
+            this.randomIndex++;
+        }
+
+    }
+
+    private SetFloorNodePosition(type: FloorType, floorNode: Node) {
+        if (!this.lastNode) return;
         switch (type) {
             case FloorType.FRONT:
-                z = z - 3;
-                floorNode.setWorldPosition(x, 0, z);
+                floorNode.setWorldPosition(this.lastNode.worldPosition.x, 0, this.lastNode.worldPosition.z - 3);
                 break;
             case FloorType.BACK:
-                z = z + 3;
-                floorNode.setWorldPosition(x, 0, z);
+                floorNode.setWorldPosition(this.lastNode.worldPosition.x, 0, this.lastNode.worldPosition.z + 3);
                 break;
             case FloorType.LEFT:
-                x = x - 3;
-                floorNode.setWorldPosition(x, 0, z);
+                floorNode.setWorldPosition(this.lastNode.worldPosition.x - 3, 0, this.lastNode.worldPosition.z);
                 break;
             case FloorType.RIGHT:
-                x = x + 3;
-                floorNode.setWorldPosition(x, 0, z);
+                floorNode.setWorldPosition(this.lastNode.worldPosition.x + 3, 0, this.lastNode.worldPosition.z);
                 break;
             default:
                 break;
         }
-        return { z, x };
+        this.lastNode = floorNode;
     }
 
     /**创建时根据json数据设置新地板的方向属性 */
     private SetNewFloorTypeData(floorNode: Node, json: any, i: number): FloorType {
         let floor = floorNode.getComponent(Floor) as Floor;
         if (floor) {
-            switch (json.Level1.floorDirectionData[i]) {
+            switch (json.floorDirectionData[i]) {
                 case '1':
                     floor.floorType = FloorType.FRONT;
                     break;
@@ -122,47 +177,52 @@ export class FloorManager extends MyComponent {
         }
         throw new Error("找不到类型:" + json.Level1.floorDirectionData[i])
     }
-
-    RemoveFloor() {
-        this.floorPrefabs.splice(0, 1);
-    }
-    movespeed: number = 3;
-    moveSpeedx: number = 0;
-    moveSpeedz: number = 0;
-    nowFloorIndex: number = 0;
-    cameraAngle: number = 0;
-
     onUpDate(dt: number) {
         this.MoveFloor(dt);
     }
-
-
-
     MoveFloor(dt: number) {
         if (!this.allFloors[this.nowFloorIndex]) return;
         if (!this.allFloors[this.nowFloorIndex].IsNowFloor()) {
-            this.nowFloorIndex++;
+
+            if (this.type == "endlessMode") {
+                if (this.nowFloorIndex == 5)
+                    this.RemoveFloor();
+                else {
+                    this.nowFloorIndex++;
+                }
+                // if (this.nowFloorIndex > 2) {
+                // this.nowFloorIndex = 2;
+                // }
+                this.CreateFloorForRandom();
+            } else {
+                this.nowFloorIndex++;
+            }
+            // if (this.nowFloorIndex == 1)
+
+            // this.nowFloorIndex--;
         }
         //若下个结点存在 并且与当前结点的类型不同
-        if (this.nowFloorIndex + 1 < this.allFloors.length && this.allFloors[this.nowFloorIndex + 1].floorType != this.allFloors[this.nowFloorIndex].floorType) {
-            //应该转向
-            if (Vec3.distance(this.allFloors[this.nowFloorIndex].node.worldPosition, new Vec3(0, 0, 0)) < 0.1) {
-                switch (this.allFloors[this.nowFloorIndex + 1].floorType) {
-                    case FloorType.FRONT:
-                        this.MoveFront();
-                        break;
-                    case FloorType.BACK:
-                        this.MoveBack();
-                        break;
-                    case FloorType.LEFT:
-                        this.MoveLeft();
-                        break;
-                    case FloorType.RIGHT:
-                        this.MoveRight();
-                        break;
-                    default:
-                        this.MoveStop();
-                        break;
+        if (this.allFloors[this.nowFloorIndex] && this.allFloors[this.nowFloorIndex + 1]) {
+            if (this.nowFloorIndex + 1 < this.allFloors.length && this.allFloors[this.nowFloorIndex + 1].floorType != this.allFloors[this.nowFloorIndex].floorType) {
+                //应该转向
+                if (Vec3.distance(this.allFloors[this.nowFloorIndex].node.worldPosition, new Vec3(0, 0, 0)) < 0.1) {
+                    switch (this.allFloors[this.nowFloorIndex + 1].floorType) {
+                        case FloorType.FRONT:
+                            this.MoveFront();
+                            break;
+                        case FloorType.BACK:
+                            this.MoveBack();
+                            break;
+                        case FloorType.LEFT:
+                            this.MoveLeft();
+                            break;
+                        case FloorType.RIGHT:
+                            this.MoveRight();
+                            break;
+                        default:
+                            this.MoveStop();
+                            break;
+                    }
                 }
             }
             //转摄像头
@@ -181,14 +241,10 @@ export class FloorManager extends MyComponent {
                     break;
             }
         }
-
         let out = new Vec3(0, 0, 0);
         let angle = new Vec3(0, 0, 0);
         this.Camera?.getWorldRotation().getEulerAngles(angle)
-        console.log(angle);
         Vec3.lerp(out, angle, new Vec3(0, this.cameraAngle, 0), 0.1);
-        // console.log(angle);
-
         this.Camera?.setRotationFromEuler(out.x, out.y, out.z);
         this.Player?.setRotationFromEuler(out.x, out.y, out.z);
         for (let i = 0; i < this.allFloors.length; i++) {
@@ -197,6 +253,14 @@ export class FloorManager extends MyComponent {
         }
     }
 
+    RemoveFloor() {
+        this.allFloors[0].node.destroy();
+        this.allFloors.splice(0, 1);
+    }
+    startMove() {
+        this.moveSpeedx = 0;
+        this.moveSpeedz = 1;
+    }
     MoveFront() {
         this.moveSpeedx = 0;
         this.moveSpeedz = 1;

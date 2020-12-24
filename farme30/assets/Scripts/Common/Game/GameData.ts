@@ -3,5 +3,5 @@ const { ccclass, property } = _decorator;
 
 @ccclass('GameData')
 export class GameData {
-    
+    static GameSceneData: Array<any> = [];
 }

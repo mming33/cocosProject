@@ -1,5 +1,6 @@
 import { CCClass, Enum, Node, Prefab, _decorator } from "cc";
 import { MyComponent } from "../../../Common/Game/MyComponent";
+import { FloorManager } from "./FloorMananger";
 import { FloorType } from "./FloorType";
 
 const { ccclass, property } = _decorator;
@@ -13,6 +14,7 @@ export class Floor extends MyComponent {
 
     IsNowFloor(): boolean {
         if (this.node.worldPosition.x <= 1.5 && this.node.worldPosition.x >= -1.5 && this.node.worldPosition.z <= 1.5 && this.node.worldPosition.z >= -1.5) {
+            console.log("------");
             return true;
         } else {
             return false;

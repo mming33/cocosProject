@@ -37,7 +37,7 @@ export class StateMachine {
                 formState.End(arg1);
                 toState.Start(arg2);
                 this.nowState = toState;
-                console.log("切换状态成功");
+                console.warn("切换状态成功:", from, "-->", to);
                 return true;
             } else {
                 console.error("切换状态失败:", from, "-->", to);

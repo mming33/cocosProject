@@ -5,7 +5,8 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-import { _decorator, Component, Node, loader, director, computeRatioByType, find, Label, UITransformComponent, game } from 'cc';
+import { _decorator, Component, Node, loader, director, computeRatioByType, find, Label, UITransformComponent, game, resources, JsonAsset } from 'cc';
+import { GameData } from '../Game/GameData';
 import { MyComponent } from '../Game/MyComponent';
 import { PopupManager } from '../Popup/PopupManager';
 import { SoundManager } from '../Sound/SoundManager';
@@ -33,7 +34,9 @@ export class LoadState extends MyComponent implements IState {
         this.LoadPopupsPrefab();
         this.LoadSoundPrefab();
         this.LoadScenes();
+        this.LoadJson();
     }
+
     End(arg?: any): void {
         // director.loadScene("MainScene");
     }
@@ -54,7 +57,7 @@ export class LoadState extends MyComponent implements IState {
      */
     private LoadPopupsPrefab() {
         // this.CreatePopupParent();
-        loader.loadResDir("PopupsPrefab", function (err: any, assets: any) {
+        resources.loadDir("PopupsPrefab", function (err: any, assets: any) {
             if (err) {
                 console.error(err);
                 return;
@@ -71,7 +74,7 @@ export class LoadState extends MyComponent implements IState {
      * 加载音效，并初始化SoundManager.I.audios
      */
     private LoadSoundPrefab() {
-        loader.loadResDir("Sounds", function (err: any, assets: any) {
+        resources.loadDir("Sounds", function (err: any, assets: any) {
             if (err) {
                 console.error(err);
                 return;
@@ -92,6 +95,16 @@ export class LoadState extends MyComponent implements IState {
             LoadManager.loadIndex++;
         });
     }
-
+    private LoadJson() {
+        resources.load("JsonDatas/LevelData", function (err: any, assets: any) {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            GameData.GameSceneData = assets.json.Level;
+            LoadManager.loadIndex++;
+            console.log(GameData.GameSceneData);
+        });
+    }
 
 }

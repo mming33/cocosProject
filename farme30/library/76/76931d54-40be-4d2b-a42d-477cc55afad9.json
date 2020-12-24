@@ -39,7 +39,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 85
+      "__id__": 94
     },
     "_id": "76931d54-40be-4d2b-a42d-477cc55afad9"
   },
@@ -2420,6 +2420,33 @@
       },
       {
         "__id__": 84
+      },
+      {
+        "__id__": 85
+      },
+      {
+        "__id__": 86
+      },
+      {
+        "__id__": 87
+      },
+      {
+        "__id__": 88
+      },
+      {
+        "__id__": 89
+      },
+      {
+        "__id__": 90
+      },
+      {
+        "__id__": 91
+      },
+      {
+        "__id__": 92
+      },
+      {
+        "__id__": 93
       }
     ],
     "_prefab": null,
@@ -2463,7 +2490,7 @@
     "_id": "d7XU48m5RMCo+vQW8uYXoh"
   },
   {
-    "__type__": "866c6Z2Qg5JAJX9meE6v/3E",
+    "__type__": "4ca5eG8P85MFpRqNZFoXKx/",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -2471,10 +2498,10 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "2fSXJt/FRND765i3zaMNr7"
+    "_id": "59N71Dff9FnJ4rXvYUQuXP"
   },
   {
-    "__type__": "eec31lE5Q9Fibusqcjl8yVm",
+    "__type__": "59387vOHdxKD5oMMimFXK3f",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -2482,10 +2509,10 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "5ajuWqOdBGOavebp9FeXsC"
+    "_id": "54L79bfRlCt5VcIHssGcW5"
   },
   {
-    "__type__": "f2999wCp91I1K+WJRApn566",
+    "__type__": "50f11uIlgZG2LdasrTUjWs3",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -2493,7 +2520,84 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "49PRWqmJJI56Q1CzPmmf0L"
+    "_id": "3cSj0FK4VGP4rbHkBfI0uT"
+  },
+  {
+    "__type__": "0b3ba85ghZAroU6/8q3tZ+8",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "52siRvdS9Iqo2lrq9T67yX"
+  },
+  {
+    "__type__": "66296CGP3hDVZWv93f2L0a1",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "afqvovJ+1KYbfES8QMB2Ca"
+  },
+  {
+    "__type__": "b698fC0cqhIpb9sKkq/hvSK",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "d4g9byn45ITrw6nYpJrnAF"
+  },
+  {
+    "__type__": "47494yF18JAoLt7FGfJsDDH",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "ad/ffV4bRHJbpOECBnXqt1"
+  },
+  {
+    "__type__": "453c0NzGtRJ1bf6QTy98hVT",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "2cw3bEIwNGgZR6BNULh2Y+"
+  },
+  {
+    "__type__": "c6934CHaDRBb4q9w7A5PfTk",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "78U+TY6eVL1Z/6JtsgRB7r"
+  },
+  {
+    "__type__": "aad276AG7xNEZisjI8NH5ku",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "887C86EM9H7YrclSE2ey1F"
   },
   {
     "__type__": "41d54bEc0hJUo/l0GPb8Jzn",
@@ -2504,21 +2608,43 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "59G4PMR4xAh5+sQXJmgfYc"
+    "_id": "08ZfxLcH5Bsrim0otteEz/"
+  },
+  {
+    "__type__": "29d5ebV5cxA+K9EhLAsm5SB",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "68vPdRT9BDZKJJ9VlCDwjz"
+  },
+  {
+    "__type__": "866c6Z2Qg5JAJX9meE6v/3E",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 79
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "78tjbSKMxCnIWc6aV12mz5"
   },
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 86
+      "__id__": 95
     },
     "shadows": {
-      "__id__": 87
+      "__id__": 96
     },
     "_skybox": {
-      "__id__": 88
+      "__id__": 97
     },
     "fog": {
-      "__id__": 89
+      "__id__": 98
     }
   },
   {

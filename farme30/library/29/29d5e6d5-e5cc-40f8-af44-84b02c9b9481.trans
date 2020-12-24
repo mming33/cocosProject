@@ -1,0 +1,8 @@
+{
+    "resolveMap": {
+        "../../Common/Game/MyComponent": "../../Common/Game/MyComponent.ts",
+        "../../Common/Popup/PopupManager": "../../Common/Popup/PopupManager.ts",
+        "../../Common/StateMachine/StateMachine": "../../Common/StateMachine/StateMachine.ts",
+        "../../Common/StateMachine/StateType": "../../Common/StateMachine/StateType.ts"
+    }
+}

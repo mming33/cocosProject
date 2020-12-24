@@ -1,5 +1,6 @@
 {
     "resolveMap": {
-        "./Common/Sound/SoundManager": "Common/Sound/SoundManager.ts"
+        "./Common/StateMachine/StateMachine": "Common/StateMachine/StateMachine.ts",
+        "./Common/StateMachine/StateType": "Common/StateMachine/StateType.ts"
     }
 }
