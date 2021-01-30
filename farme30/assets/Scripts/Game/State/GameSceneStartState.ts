@@ -9,27 +9,22 @@ import { _decorator, Component, Node } from 'cc';
 import { GameController } from '../../Common/Game/GameController';
 import { MyComponent } from '../../Common/Game/MyComponent';
 import { IState } from '../../Common/StateMachine/IState';
+import { SMName } from '../../Common/StateMachine/SMManger';
 import { StateMachine } from '../../Common/StateMachine/StateMachine';
 import { StateType } from '../../Common/StateMachine/StateType';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameSceneStartState')
-export class GameSceneStartState extends MyComponent implements IState {
+export class GameSceneStartState  implements IState {
+    stateMachineName: string = SMName.GameStateMachine;
     stateName: string = StateType.GameSceneStartState;
     canToStateName: string[] = [StateType.StartGameState];
     canFromStateName: string[] = [StateType.MainSceneStartState];
-    onLoad() {
-        this.addSelf2StateMap();
-    }
+   
     Start(arg?: any): void {
-        console.log("开始游戏");
-        // this.scheduleOnce(() => { GameController.isGameStop = false; }, 1);
     }
     End(arg?: any): void {
     }
-    addSelf2StateMap(): void {
-        console.log("注册状态成功，name: ", this.stateName);
-        StateMachine.AddState(this.stateName, this.node.getComponent(GameSceneStartState) as GameSceneStartState);
-    }
+  
 
 }

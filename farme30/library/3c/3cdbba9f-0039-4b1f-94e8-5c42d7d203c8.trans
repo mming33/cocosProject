@@ -1,5 +1,11 @@
 {
     "resolveMap": {
-        "../Game/MyComponent": "../Game/MyComponent.ts"
+        "../Events/MyEvent": "../Events/MyEvent.ts",
+        "../Game/GameData": "../Game/GameData.ts",
+        "../Game/MyComponent": "../Game/MyComponent.ts",
+        "../Popup/PopupManager": "../Popup/PopupManager.ts",
+        "../Sound/SoundManager": "../Sound/SoundManager.ts",
+        "../StateMachine/AddState": "../StateMachine/AddState.ts",
+        "../StateMachine/SMManger": "../StateMachine/SMManger.ts"
     }
 }

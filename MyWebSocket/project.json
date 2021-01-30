@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "MyWebSocket",
+  "id": "dedb52bf-b0a8-4d1c-b0d1-2055afee5622",
+  "version": "2.4.3",
+  "isNew": false
+}

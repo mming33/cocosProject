@@ -1,7 +1,7 @@
 {
     "resolveMap": {
         "../../Common/Popup/Popup": "../../Common/Popup/Popup.ts",
-        "../../Common/StateMachine/StateMachine": "../../Common/StateMachine/StateMachine.ts",
+        "../../Common/StateMachine/SMManger": "../../Common/StateMachine/SMManger.ts",
         "../../Common/StateMachine/StateType": "../../Common/StateMachine/StateType.ts"
     }
 }

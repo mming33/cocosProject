@@ -51,13 +51,54 @@
         },
         "time": "2020-12-22 11:46",
         "dirty": false
+      },
+      "undefined": {
+        "rawOptions": {
+          "buildPath": "./build",
+          "compressTexture": true,
+          "debug": false,
+          "experimentalEraseModules": false,
+          "mainBundleCompressionType": "merge_dep",
+          "mainBundleIsRemote": false,
+          "md5Cache": true,
+          "mergeStartScene": false,
+          "name": "farme30",
+          "outputName": "web-mobile-001",
+          "packAutoAtlas": true,
+          "packages": {
+            "web-mobile": {
+              "orientation": "landscape",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            }
+          },
+          "platform": "web-mobile",
+          "replaceSplashScreen": false,
+          "scenes": [
+            {
+              "url": "db://assets/Scenes/GameScene.scene",
+              "uuid": "8eb8b8e6-64ee-4b1f-b229-87c6777b0dff"
+            },
+            {
+              "url": "db://assets/Scenes/LoadScene.scene",
+              "uuid": "76931d54-40be-4d2b-a42d-477cc55afad9"
+            },
+            {
+              "url": "db://assets/Scenes/MainScene.scene",
+              "uuid": "09ce0bb6-a1e4-4576-b6fb-e9c2e3f72851"
+            }
+          ],
+          "sourceMaps": false,
+          "startScene": "76931d54-40be-4d2b-a42d-477cc55afad9"
+        }
       }
     }
   },
   "common": {
-    "outputName": "web-mobile",
+    "outputName": "bytedance-mini-game",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "web-mobile",
+    "platform": "bytedance-mini-game",
     "md5Cache": true,
     "startScene": "76931d54-40be-4d2b-a42d-477cc55afad9",
     "mainBundleIsRemote": false

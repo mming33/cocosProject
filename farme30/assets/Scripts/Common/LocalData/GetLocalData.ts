@@ -19,13 +19,18 @@ export class GetLocalData {
     /**
      * userName/userAvatarID/userMoney
      */
-    Get(): any {
+    Get(){
         let data = DataStorage.GetJson(GetLocalData.ThisUserData);
         if (data) {
             GetLocalData.UserName = data.userName;
             GetLocalData.UserAvatarID = data.userAvatarID
             GetLocalData.UserMoney = data.userMoney
         }
-        return data;
+        let outdata = {
+            userName: GetLocalData.UserName,
+            userAvatarID: GetLocalData.UserAvatarID,
+            userMoney: GetLocalData.UserMoney
+        }
+        return outdata;
     }
 }

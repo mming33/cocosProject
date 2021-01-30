@@ -1,0 +1,17 @@
+{
+    "resolveMap": {
+        "../../Game/State/ChooseEndlessModeState": "../../Game/State/ChooseEndlessModeState.ts",
+        "../../Game/State/ChooseLevelState": "../../Game/State/ChooseLevelState.ts",
+        "../../Game/State/DeathState": "../../Game/State/DeathState.ts",
+        "../../Game/State/GameOverState": "../../Game/State/GameOverState.ts",
+        "../../Game/State/GameSceneStartState": "../../Game/State/GameSceneStartState.ts",
+        "../../Game/State/GameSettlementState": "../../Game/State/GameSettlementState.ts",
+        "../../Game/State/GamingState": "../../Game/State/GamingState.ts",
+        "../../Game/State/GamingStopState": "../../Game/State/GamingStopState.ts",
+        "../../Game/State/MainSceneStartState": "../../Game/State/MainSceneStartState.ts",
+        "../../Game/State/ShopPopupState": "../../Game/State/ShopPopupState.ts",
+        "../../Game/State/StartGameState": "../../Game/State/StartGameState.ts",
+        "../CommonState/LoadState": "../CommonState/LoadState.ts",
+        "./SMManger": "SMManger.ts"
+    }
+}

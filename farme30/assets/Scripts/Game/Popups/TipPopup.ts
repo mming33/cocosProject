@@ -11,7 +11,7 @@ export class TipPopup extends Popup {
     private NoBtn: Node | null = null;
     onEnable() {
         let tipBG = this.node.getChildByName("TipBG") as Node;
-        tipBG.setPosition(0, - 1000, 0);
+        tipBG.setPosition(0, -1000, 0);
         tween(tipBG).to(0.8, { position: new Vec3(0, 0, 0) }, { easing: "backOut" }).start();
     }
     Init(arg: any) {

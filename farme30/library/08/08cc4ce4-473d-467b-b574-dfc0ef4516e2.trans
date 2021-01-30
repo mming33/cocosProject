@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "../Events/MyEvent": "../Events/MyEvent.ts"
+    }
+}

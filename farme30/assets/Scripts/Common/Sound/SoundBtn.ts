@@ -15,23 +15,23 @@ export class SoundBtn extends Component {
             console.error("此结点没有Sprite组件");
             return
         }
-        if (SoundManager.I.AudioSourceVolume == 1) {
+        if (SoundManager.AudioSourceVolume == 1) {
             this.sp.spriteFrame = this.OnSoundFrame;
         }
-        else if (SoundManager.I.AudioSourceVolume == 0) {
+        else if (SoundManager.AudioSourceVolume == 0) {
             this.sp.spriteFrame = this.OffSoundFrame;
         }
     }
     soundBtn(event: any, name: any) {
-        if (SoundManager.I.AudioSourceVolume == 1) {
-            SoundManager.I.SetSourceVolume(0);
-            SoundManager.I.SetBGMusicVolume(0, name);
+        if (SoundManager.AudioSourceVolume == 1) {
+            SoundManager.SetSourceVolume(0);
+            SoundManager.SetBGMusicVolume(0, name);
             if (this.sp)
                 this.sp.spriteFrame = this.OffSoundFrame;
         }
-        else if (SoundManager.I.AudioSourceVolume == 0) {
-            SoundManager.I.SetSourceVolume(1);
-            SoundManager.I.SetBGMusicVolume(1, name);
+        else if (SoundManager.AudioSourceVolume == 0) {
+            SoundManager.SetSourceVolume(1);
+            SoundManager.SetBGMusicVolume(1, name);
             if (this.sp)
                 this.sp.spriteFrame = this.OnSoundFrame;
         }

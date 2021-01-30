@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.9",
+  "importer": "typescript",
+  "imported": false,
+  "uuid": "429fe835-1063-469a-814b-acfa82be0346",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/Scripts/Common/StateMachine/State.js",
+    "importerSettings": 7
+  }
+}

@@ -1,6 +1,5 @@
 export class StateType {
     public static readonly LoadState: string = "LoadState";
-
     public static readonly DeathState: string = "DeathState";
     public static readonly GameOverState: string = "GameOverState";
     public static readonly GameSceneStartState: string = "GameSceneStartState";

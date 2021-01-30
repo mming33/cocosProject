@@ -1,25 +1,41 @@
-import { _decorator, Component, Node, AudioSource, AudioClip, game } from 'cc';
+import { _decorator, Component, Node, AudioSource, AudioClip, game, resources } from 'cc';
+import { LoadManager } from '../Load/LoadManager';
 import { MyListCommon } from '../MyMath/MyListCommon';
 const { ccclass, property } = _decorator;
 
 @ccclass('SoundManager')
-export class SoundManager extends Component {
-    /**单例 */
-    private static Instance: SoundManager;
-    public static get I(): SoundManager { return this.Instance; }
-    private static set i(v: SoundManager) { this.Instance = v; }
+export class SoundManager {
 
-    audios: AudioClip[] = [];
-
-    AudioSourceVolume: number = 1;
-    BGMVolume: number = 1;
-
-    onLoad() {
-        game.addPersistRootNode(this.node);
-        SoundManager.i = this.node.getComponent(SoundManager) as SoundManager;
+    private static singleton: SoundManager;
+    public static get I(): SoundManager {
+        if (!this.singleton) {
+            this.singleton = new SoundManager();
+        }
+        return this.singleton;
     }
 
-    PlayBGMusic(name: string = "BGMusic") {
+    static audios: AudioClip[] = [];
+
+    static AudioSourceVolume: number = 1;
+    static BGMVolume: number = 1;
+
+    /**
+       * 加载音效，并初始化SoundManager.I.audios
+       */
+    static LoadSound() {
+        resources.loadDir("Sounds", function (err: any, assets: any) {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            for (let i = 0; i < assets.length; i++) {
+                const element = assets[i];
+                SoundManager.audios.push(element);
+            }
+            LoadManager.loadIndex++;
+        });
+    }
+    static PlayBGMusic(name: string = "BGMusic") {
         for (let i = 0; i < this.audios.length; i++) {
             const element = this.audios[i];
             if (element.name == name) {
@@ -28,7 +44,7 @@ export class SoundManager extends Component {
             }
         }
     }
-    PlaySource(name: string) {
+    static PlaySource(name: string) {
         for (let i = 0; i < this.audios.length; i++) {
             const element = this.audios[i];
             if (element.name == name) {
@@ -37,10 +53,10 @@ export class SoundManager extends Component {
         }
     }
 
-    SetSourceVolume(volume: number) {
+    static SetSourceVolume(volume: number) {
         this.AudioSourceVolume = volume;
     }
-    SetBGMusicVolume(volume: number, BGMusicName: string = "BGMusic") {
+    static SetBGMusicVolume(volume: number, BGMusicName: string = "BGMusic") {
         this.BGMVolume = volume;
         for (let i = 0; i < this.audios.length; i++) {
             const element = this.audios[i];
