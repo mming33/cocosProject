@@ -16,11 +16,12 @@ export class AdvType {
     public static readonly OFFCLOSEVIDEOAD = "OFFCLOSEVIDEOAD";
     /**显示插屏广告 */
     public static readonly SHOWINTERSTITIALAD = "SHOWINTERSTITIALAD";
+    public static readonly VIBRATELONG  = "VIBRATELONG";
+    public static readonly VIBRATESHORT  = "VIBRATESHORT";
 
 
 
-
-    /**TT */
+    /**==============================TT==============================**/
     public static readonly STARTRECORDER = "STARTRECORDER";
     public static readonly STOPRECORDER = "STOPRECORDER";
 
@@ -95,10 +96,44 @@ export class AdvManager {
         };
         MyEvent.I.emit(AdvType.SHOWINTERSTITIALAD, arg);
     }
+    /**长震动 
+     * @param arg 
+     * arg.success
+     * arg.fail
+     * arg.complete
+     */
+    VibrateLong(success?: Function, error?: Function, complete?: Function) {
+        let arg = {
+            success: success, //&& arg.success(),
+            fail: error, //&& arg.error(),
+            complete: complete,// && arg.complete(),
+        }
+        MyEvent.I.emit(AdvType.VIBRATELONG, arg);
+    }
+    /**短震动 
+     * @param arg 
+     * arg.success
+     * arg.fail
+     * arg.complete
+     */
+    VibrateShort(success?: Function, error?: Function, complete?: Function) {
+        let arg = {
+            success: success, //&& arg.success(),
+            fail: error, //&& arg.error(),
+            complete: complete,// && arg.complete(),
+        }
+        MyEvent.I.emit(AdvType.VIBRATESHORT)
+    }
 
 
-    /**
-     * 开始录屏
+
+
+
+
+
+
+    /**==============================TT==============================**/
+    /** 开始录屏
      * @param success 
      * @param error 
      */
@@ -109,8 +144,7 @@ export class AdvManager {
         };
         MyEvent.I.emit(AdvType.STARTRECORDER, arg);
     }
-    /**
-     * 停止录屏
+    /** 停止录屏
      * @param success 分享成功
      * @param error 分享失败
      */

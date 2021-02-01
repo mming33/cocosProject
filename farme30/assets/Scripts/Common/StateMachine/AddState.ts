@@ -16,8 +16,8 @@ import { SMManger } from "./SMManger";
 const { ccclass, property } = _decorator;
 
 @ccclass('AddState')
-export class State {
-    static AddState() {
+export class AddState {
+    static AddAllState() {
         SMManger.AddStateToStateMachine(new LoadState());
         SMManger.AddStateToStateMachine(new DeathState());
         SMManger.AddStateToStateMachine(new GameOverState());

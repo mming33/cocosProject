@@ -33,6 +33,8 @@ export class TTCommon implements IAdv {
         MyEvent.I.on(AdvType.ONCLOSEVIDEOAD, this.onCloseVideoAd, this.EventType);
         MyEvent.I.on(AdvType.OFFCLOSEVIDEOAD, this.offCloseVideoAd, this.EventType);
         MyEvent.I.on(AdvType.SHOWINTERSTITIALAD, this.ShowInterstitialAd, this.EventType);
+        MyEvent.I.on(AdvType.VIBRATELONG, this.VibrateLong, this.EventType);
+        MyEvent.I.on(AdvType.VIBRATESHORT, this.VibrateShort, this.EventType);
         MyEvent.I.on(AdvType.STARTRECORDER, this.StartRecorder, this.EventType);
         MyEvent.I.on(AdvType.STOPRECORDER, this.StopRecorder, this.EventType);
 

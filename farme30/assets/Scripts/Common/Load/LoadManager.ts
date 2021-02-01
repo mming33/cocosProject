@@ -4,7 +4,7 @@ import { GameData } from '../Game/GameData';
 import { MyComponent } from '../Game/MyComponent';
 import { PopupManager } from '../Popup/PopupManager';
 import { SoundManager } from '../Sound/SoundManager';
-import { State } from '../StateMachine/AddState';
+import { AddState } from '../StateMachine/AddState';
 import { SMManger, SMName } from '../StateMachine/SMManger';
 import { StateType } from '../StateMachine/StateType';
 const { ccclass, property } = _decorator;
@@ -15,17 +15,18 @@ export class LoadManager extends MyComponent {
     private readonly JsonDataPath = "JsonDatas/LevelData";
     private readonly MainScenePath = "MainScene";
     private readonly GameScenePath = "GameScene";
+
     public static readonly allloadIndex: number = 5;
+    
 
     Init() {
-        SMManger.AutoAndAllStateAndCreateSM();
         this.InitNode()
         if (LoadManager.isLoadOver == true) {
             MyEvent.I.emit(EventType.LoadResOver);
         } else {
             this.LoadRes();
         };
-        State.AddState();
+        AddState.AddAllState();
     }
     /**初始化结点信息 */
     private InitNode(): void {

@@ -10,7 +10,7 @@ const { ccclass, property } = _decorator;
 export class MainSceneManager extends MyComponent {
     Init() {
         SMManger.GetStateMachine(SMName.GameStateMachine).ChangeState(StateType.LoadState, StateType.MainSceneStartState);
-        // PopupManager.I.ShowPopup("TipPopup", {
+        // PopupManager.ShowPopup("TipPopup", {
         //     TipString: 'tip tip tip tip tip',
         //     YesBtnString: 'ok',
         //     NoBtnString: 'no',

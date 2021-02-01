@@ -10,6 +10,6 @@ export class Popup extends Component {
 
     }
     close() {
-        PopupManager.I.ClosePopup(this.isLevel2Popup);
+        PopupManager.ClosePopup(this.isLevel2Popup);
     }
 }
