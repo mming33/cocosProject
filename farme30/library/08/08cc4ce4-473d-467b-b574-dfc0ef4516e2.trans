@@ -1,5 +1,6 @@
 {
     "resolveMap": {
-        "../Events/MyEvent": "../Events/MyEvent.ts"
+        "../Events/MyEvent": "../Events/MyEvent.ts",
+        "./TTCommon": "TTCommon.ts"
     }
 }

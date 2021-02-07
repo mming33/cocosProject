@@ -1,7 +1,6 @@
 {
     "resolveMap": {
         "../Events/MyEvent": "../Events/MyEvent.ts",
-        "./Adv": "Adv.ts",
         "./AdvManager": "AdvManager.ts"
     }
 }
